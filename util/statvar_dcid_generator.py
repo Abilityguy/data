@@ -17,6 +17,7 @@ import copy
 import re
 import os
 import sys
+import logging
 
 #pylint: disable=wrong-import-position
 #pylint: disable=import-error
@@ -28,6 +29,17 @@ sys.path.append(os.path.join(_SCRIPT_PATH, '.'))  # For soc_codes_names
 from soc_codes_names import SOC_MAP
 #pylint: enable=wrong-import-position
 #pylint: enable=import-error
+
+# Initialize the logger
+logging.basicConfig(
+    level=logging.WARNING,
+    filename=os.path.join(_SCRIPT_PATH, 'statvar_dcid_generator.log'),
+    format="{asctime} {processName:<12} {message} ({filename}:{lineno})",
+    style="{",
+    filemode='w')
+logging.StreamHandler(stream=None)
+logger = logging.getLogger(__file__)
+logger.setLevel(logging.WARNING)
 
 # Global constants
 # Regex to match the quantity notations - [value quantity], [quantity value]
@@ -579,4 +591,11 @@ def get_statvar_dcid(stat_var_dict: dict, ignore_props: list = None) -> str:
 
     dcid = '_'.join(dcid_list)
     dcid = _LEGACY_MAP.get(dcid, dcid)
+    
+    if len(dcid) > 80:
+        logging.warning(f'Length of dcid greater than 80 characters: {dcid}')
+        if 'NAICS' in dcid:
+            dcid_naics_code = re.sub(r'NAICS[A-Z]')
+            logging.critical('Changing NAICS industry name to it\'s code')
+            
     return dcid
