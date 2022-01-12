@@ -1,0 +1,605 @@
+Node: dcid:Count_CriminalIncidents_IsHateCrime
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Count_HateCrimeIncidents_VictimTypePerson
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Person
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Count_HateCrimeIncidents_VictimTypeBusiness
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Business
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Count_HateCrimeIncidents_VictimTypeGovernment
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Government
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Count_HateCrimeIncidents_VictimTypeReligiousOrganization
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:ReligiousOrganization
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Count_HateCrimeIncidents_VictimTypeSociety
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Society
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Count_HateCrimeIncidents_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSingleBias
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:SingleBias
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSingleBias_VictimTypePerson
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Person
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:SingleBias
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSingleBias_VictimTypeBusiness
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Business
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:SingleBias
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSingleBias_VictimTypeGovernment
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Government
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:SingleBias
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSingleBias_VictimTypeReligiousOrganization
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:ReligiousOrganization
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:SingleBias
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSingleBias_VictimTypeSociety
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Society
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:SingleBias
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSingleBias_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:SingleBias
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_VictimTypePerson
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Person
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_VictimTypeBusiness
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Business
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_VictimTypeGovernment
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Government
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_VictimTypeReligiousOrganization
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:ReligiousOrganization
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_VictimTypeSociety
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Society
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_VictimTypePerson
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Person
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_VictimTypeBusiness
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Business
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_VictimTypeGovernment
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Government
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_VictimTypeReligiousOrganization
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:ReligiousOrganization
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_VictimTypeSociety
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Society
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_VictimTypePerson
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Person
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_VictimTypeBusiness
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Business
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_VictimTypeGovernment
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Government
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_VictimTypeReligiousOrganization
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:ReligiousOrganization
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_VictimTypeSociety
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Society
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_VictimTypePerson
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Person
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_VictimTypeBusiness
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Business
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_VictimTypeGovernment
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Government
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_VictimTypeReligiousOrganization
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:ReligiousOrganization
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_VictimTypeSociety
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Society
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_VictimTypePerson
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Person
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_VictimTypeBusiness
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Business
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_VictimTypeGovernment
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Government
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_VictimTypeReligiousOrganization
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:ReligiousOrganization
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_VictimTypeSociety
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Society
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+
+Node: dcid:Count_HateCrimeIncidents_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+
+Node: dcid:Count_HateCrimeIncidents_TargetedGenderTransgenderOrGenderNonConforming_VictimTypePerson
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Person
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+
+Node: dcid:Count_HateCrimeIncidents_TargetedGenderTransgenderOrGenderNonConforming_VictimTypeBusiness
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Business
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+
+Node: dcid:Count_HateCrimeIncidents_TargetedGenderTransgenderOrGenderNonConforming_VictimTypeGovernment
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Government
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+
+Node: dcid:Count_HateCrimeIncidents_TargetedGenderTransgenderOrGenderNonConforming_VictimTypeReligiousOrganization
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:ReligiousOrganization
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+
+Node: dcid:Count_HateCrimeIncidents_TargetedGenderTransgenderOrGenderNonConforming_VictimTypeSociety
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Society
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+
+Node: dcid:Count_HateCrimeIncidents_TargetedGenderTransgenderOrGenderNonConforming_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_VictimTypePerson
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Person
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_VictimTypeBusiness
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Business
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_VictimTypeGovernment
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Government
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_VictimTypeReligiousOrganization
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:ReligiousOrganization
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_VictimTypeSociety
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Society
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_VictimTypePerson
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Person
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_VictimTypeBusiness
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Business
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_VictimTypeGovernment
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Government
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_VictimTypeReligiousOrganization
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:ReligiousOrganization
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_VictimTypeSociety
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Society
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_VictimTypePerson
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Person
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_VictimTypeBusiness
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Business
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_VictimTypeGovernment
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Government
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_VictimTypeReligiousOrganization
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:ReligiousOrganization
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_VictimTypeSociety
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:Society
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType
+populationType: dcs:HateCrimeIncidents
+victimType: dcs:UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+

@@ -1,0 +1,1648 @@
+Node: dcid:Count_CriminalIncidents_IsHateCrime
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offense_Count_HateCrimeIncidents
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Victim_Count_HateCrimeIncidents
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSingleBias
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:SingleBias
+
+Node: dcid:Offense_Count_HateCrimeIncidents_BiasMotivationSingleBias
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:SingleBias
+
+Node: dcid:Victim_Count_HateCrimeIncidents_BiasMotivationSingleBias
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:SingleBias
+
+Node: dcid:Offender_Count_HateCrimeIncidents_BiasMotivationSingleBias_KnownOffender
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:SingleBias
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+
+Node: dcid:Offense_Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+
+Node: dcid:Victim_Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+
+Node: dcid:Offender_Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_KnownOffender
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+
+Node: dcid:Count_HateCrimeIncidents_TargetedRaceWhiteAlone
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:WhiteAlone
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedRaceWhiteAlone
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:WhiteAlone
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedRaceWhiteAlone
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:WhiteAlone
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedRaceWhiteAlone
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:WhiteAlone
+
+Node: dcid:Count_HateCrimeIncidents_TargetedRaceBlackOrAfricanAmericanAlone
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:BlackOrAfricanAmericanAlone
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedRaceBlackOrAfricanAmericanAlone
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:BlackOrAfricanAmericanAlone
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedRaceBlackOrAfricanAmericanAlone
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:BlackOrAfricanAmericanAlone
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedRaceBlackOrAfricanAmericanAlone
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:BlackOrAfricanAmericanAlone
+
+Node: dcid:Count_HateCrimeIncidents_TargetedRaceAmericanIndianOrAlaskaNativeAlone
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:AmericanIndianOrAlaskaNativeAlone
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedRaceAmericanIndianOrAlaskaNativeAlone
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:AmericanIndianOrAlaskaNativeAlone
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedRaceAmericanIndianOrAlaskaNativeAlone
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:AmericanIndianOrAlaskaNativeAlone
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedRaceAmericanIndianOrAlaskaNativeAlone
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:AmericanIndianOrAlaskaNativeAlone
+
+Node: dcid:Count_HateCrimeIncidents_TargetedRaceAsianAlone
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:AsianAlone
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedRaceAsianAlone
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:AsianAlone
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedRaceAsianAlone
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:AsianAlone
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedRaceAsianAlone
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:AsianAlone
+
+Node: dcid:Count_HateCrimeIncidents_TargetedRaceNativeHawaiianOrOtherPacificIslanderAlone
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:NativeHawaiianOrOtherPacificIslanderAlone
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedRaceNativeHawaiianOrOtherPacificIslanderAlone
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:NativeHawaiianOrOtherPacificIslanderAlone
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedRaceNativeHawaiianOrOtherPacificIslanderAlone
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:NativeHawaiianOrOtherPacificIslanderAlone
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedRaceNativeHawaiianOrOtherPacificIslanderAlone
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:NativeHawaiianOrOtherPacificIslanderAlone
+
+Node: dcid:Count_HateCrimeIncidents_TargetedRaceTwoOrMoreRaces
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:TwoOrMoreRaces
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedRaceTwoOrMoreRaces
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:TwoOrMoreRaces
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedRaceTwoOrMoreRaces
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:TwoOrMoreRaces
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedRaceTwoOrMoreRaces
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:TwoOrMoreRaces
+
+Node: dcid:Count_HateCrimeIncidents_TargetedRaceArab
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:Arab
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedRaceArab
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:Arab
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedRaceArab
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:Arab
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedRaceArab
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:Arab
+
+Node: dcid:Count_HateCrimeIncidents_TargetedEthnicityHispanicOrLatino
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+targetedEthnicity: dcs:HispanicOrLatino
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedEthnicityHispanicOrLatino
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+targetedEthnicity: dcs:HispanicOrLatino
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedEthnicityHispanicOrLatino
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+targetedEthnicity: dcs:HispanicOrLatino
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedEthnicityHispanicOrLatino
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+targetedEthnicity: dcs:HispanicOrLatino
+
+Node: dcid:Count_HateCrimeIncidents_TargetedEthnicityNotHispanicOrLatino
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+targetedEthnicity: dcs:NotHispanicOrLatino
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedEthnicityNotHispanicOrLatino
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+targetedEthnicity: dcs:NotHispanicOrLatino
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedEthnicityNotHispanicOrLatino
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+targetedEthnicity: dcs:NotHispanicOrLatino
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedEthnicityNotHispanicOrLatino
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+targetedEthnicity: dcs:NotHispanicOrLatino
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+
+Node: dcid:Offense_Count_HateCrimeIncidents_BiasMotivationReligion
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+
+Node: dcid:Victim_Count_HateCrimeIncidents_BiasMotivationReligion
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+
+Node: dcid:Offender_Count_HateCrimeIncidents_BiasMotivationReligion_KnownOffender
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+
+Node: dcid:Count_HateCrimeIncidents_TargetedReligionJudaism
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Judaism
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedReligionJudaism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Judaism
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedReligionJudaism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Judaism
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedReligionJudaism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Judaism
+
+Node: dcid:Count_HateCrimeIncidents_TargetedReligionCatholicism
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Catholicism
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedReligionCatholicism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Catholicism
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedReligionCatholicism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Catholicism
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedReligionCatholicism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Catholicism
+
+Node: dcid:Count_HateCrimeIncidents_TargetedReligionProtestantism
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Protestantism
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedReligionProtestantism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Protestantism
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedReligionProtestantism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Protestantism
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedReligionProtestantism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Protestantism
+
+Node: dcid:Count_HateCrimeIncidents_TargetedReligionIslam
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Islam
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedReligionIslam
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Islam
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedReligionIslam
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Islam
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedReligionIslam
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Islam
+
+Node: dcid:Count_HateCrimeIncidents_TargetedReligionOtherReligion
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:UCR_OtherReligion
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedReligionOtherReligion
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:UCR_OtherReligion
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedReligionOtherReligion
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:UCR_OtherReligion
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedReligionOtherReligion
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:UCR_OtherReligion
+
+Node: dcid:Count_HateCrimeIncidents_TargetedReligionMultipleReligion
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:UCR_MultipleReligion
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedReligionMultipleReligion
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:UCR_MultipleReligion
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedReligionMultipleReligion
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:UCR_MultipleReligion
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedReligionMultipleReligion
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:UCR_MultipleReligion
+
+Node: dcid:Count_HateCrimeIncidents_TargetedReligionMormonism
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Mormonism
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedReligionMormonism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Mormonism
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedReligionMormonism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Mormonism
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedReligionMormonism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Mormonism
+
+Node: dcid:Count_HateCrimeIncidents_TargetedReligionJehovahsWitnesses
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:JehovahsWitnesses
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedReligionJehovahsWitnesses
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:JehovahsWitnesses
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedReligionJehovahsWitnesses
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:JehovahsWitnesses
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedReligionJehovahsWitnesses
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:JehovahsWitnesses
+
+Node: dcid:Count_HateCrimeIncidents_TargetedReligionEasternChristianity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:EasternChristianity
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedReligionEasternChristianity
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:EasternChristianity
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedReligionEasternChristianity
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:EasternChristianity
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedReligionEasternChristianity
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:EasternChristianity
+
+Node: dcid:Count_HateCrimeIncidents_TargetedReligionOtherChristian
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:UCR_OtherChristian
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedReligionOtherChristian
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:UCR_OtherChristian
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedReligionOtherChristian
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:UCR_OtherChristian
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedReligionOtherChristian
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:UCR_OtherChristian
+
+Node: dcid:Count_HateCrimeIncidents_TargetedReligionBuddhism
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Buddhism
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedReligionBuddhism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Buddhism
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedReligionBuddhism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Buddhism
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedReligionBuddhism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Buddhism
+
+Node: dcid:Count_HateCrimeIncidents_TargetedReligionHinduism
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Hinduism
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedReligionHinduism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Hinduism
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedReligionHinduism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Hinduism
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedReligionHinduism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Hinduism
+
+Node: dcid:Count_HateCrimeIncidents_TargetedReligionSikhism
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Sikhism
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedReligionSikhism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Sikhism
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedReligionSikhism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Sikhism
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedReligionSikhism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:Sikhism
+
+Node: dcid:Count_HateCrimeIncidents_TargetedReligionAtheismOrAgnosticism
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:AtheismOrAgnosticism
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedReligionAtheismOrAgnosticism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:AtheismOrAgnosticism
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedReligionAtheismOrAgnosticism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:AtheismOrAgnosticism
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedReligionAtheismOrAgnosticism
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+targetedReligion: dcs:AtheismOrAgnosticism
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+
+Node: dcid:Offense_Count_HateCrimeIncidents_BiasMotivationSexualOrientation
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+
+Node: dcid:Victim_Count_HateCrimeIncidents_BiasMotivationSexualOrientation
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+
+Node: dcid:Offender_Count_HateCrimeIncidents_BiasMotivationSexualOrientation_KnownOffender
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+
+Node: dcid:Count_HateCrimeIncidents_TargetedSexualOrientationGay
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:Gay
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedSexualOrientationGay
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:Gay
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedSexualOrientationGay
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:Gay
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedSexualOrientationGay
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:Gay
+
+Node: dcid:Count_HateCrimeIncidents_TargetedSexualOrientationLesbian
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:Lesbian
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedSexualOrientationLesbian
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:Lesbian
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedSexualOrientationLesbian
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:Lesbian
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedSexualOrientationLesbian
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:Lesbian
+
+Node: dcid:Count_HateCrimeIncidents_TargetedSexualOrientationLGBT
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:LGBT
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedSexualOrientationLGBT
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:LGBT
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedSexualOrientationLGBT
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:LGBT
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedSexualOrientationLGBT
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:LGBT
+
+Node: dcid:Count_HateCrimeIncidents_TargetedSexualOrientationHeterosexual
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:Heterosexual
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedSexualOrientationHeterosexual
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:Heterosexual
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedSexualOrientationHeterosexual
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:Heterosexual
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedSexualOrientationHeterosexual
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:Heterosexual
+
+Node: dcid:Count_HateCrimeIncidents_TargetedSexualOrientationBisexual
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:Bisexual
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedSexualOrientationBisexual
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:Bisexual
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedSexualOrientationBisexual
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:Bisexual
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedSexualOrientationBisexual
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:Bisexual
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+
+Node: dcid:Offense_Count_HateCrimeIncidents_BiasMotivationDisabilityStatus
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+
+Node: dcid:Victim_Count_HateCrimeIncidents_BiasMotivationDisabilityStatus
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+
+Node: dcid:Offender_Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_KnownOffender
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+
+Node: dcid:Count_HateCrimeIncidents_TargetedDisabilityStatusPhysicalDisability
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+targetedDisabilityStatus: dcs:PhysicalDisability
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedDisabilityStatusPhysicalDisability
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+targetedDisabilityStatus: dcs:PhysicalDisability
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedDisabilityStatusPhysicalDisability
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+targetedDisabilityStatus: dcs:PhysicalDisability
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedDisabilityStatusPhysicalDisability
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+targetedDisabilityStatus: dcs:PhysicalDisability
+
+Node: dcid:Count_HateCrimeIncidents_TargetedDisabilityStatusMentalDisability
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+targetedDisabilityStatus: dcs:MentalDisability
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedDisabilityStatusMentalDisability
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+targetedDisabilityStatus: dcs:MentalDisability
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedDisabilityStatusMentalDisability
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+targetedDisabilityStatus: dcs:MentalDisability
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedDisabilityStatusMentalDisability
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+targetedDisabilityStatus: dcs:MentalDisability
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+
+Node: dcid:Offense_Count_HateCrimeIncidents_BiasMotivationGender
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+
+Node: dcid:Victim_Count_HateCrimeIncidents_BiasMotivationGender
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+
+Node: dcid:Offender_Count_HateCrimeIncidents_BiasMotivationGender_KnownOffender
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+
+Node: dcid:Count_HateCrimeIncidents_TargetedGenderMale
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:Male
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedGenderMale
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:Male
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedGenderMale
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:Male
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedGenderMale
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:Male
+
+Node: dcid:Count_HateCrimeIncidents_TargetedGenderFemale
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:Female
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedGenderFemale
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:Female
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedGenderFemale
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:Female
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedGenderFemale
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:Female
+
+Node: dcid:Count_HateCrimeIncidents_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+
+Node: dcid:Count_HateCrimeIncidents_TargetedGenderTransgender
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:Transgender
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedGenderTransgender
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:Transgender
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedGenderTransgender
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:Transgender
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedGenderTransgender
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:Transgender
+
+Node: dcid:Count_HateCrimeIncidents_TargetedGenderGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:GenderNonConforming
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedGenderGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:GenderNonConforming
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedGenderGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:GenderNonConforming
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedGenderGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:GenderNonConforming
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+
+Node: dcid:Offense_Count_HateCrimeIncidents_BiasMotivationMultipleBias
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+
+Node: dcid:Victim_Count_HateCrimeIncidents_BiasMotivationMultipleBias
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+
+Node: dcid:Offender_Count_HateCrimeIncidents_BiasMotivationMultipleBias_KnownOffender
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+
+Node: dcid:Offense_Count_HateCrimeIncidents_BiasMotivationRace
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+
+Node: dcid:Victim_Count_HateCrimeIncidents_BiasMotivationRace
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+
+Node: dcid:Offender_Count_HateCrimeIncidents_BiasMotivationRace_KnownOffender
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+
+Node: dcid:Offense_Count_HateCrimeIncidents_BiasMotivationEthnicity
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+
+Node: dcid:Victim_Count_HateCrimeIncidents_BiasMotivationEthnicity
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+
+Node: dcid:Offender_Count_HateCrimeIncidents_BiasMotivationEthnicity_KnownOffender
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+
+Node: dcid:Count_HateCrimeIncidents_TargetedRaceAsianOrPacificIslander
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:AsianOrPacificIslander
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedRaceAsianOrPacificIslander
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:AsianOrPacificIslander
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedRaceAsianOrPacificIslander
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:AsianOrPacificIslander
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedRaceAsianOrPacificIslander
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+targetedRace: dcs:AsianOrPacificIslander
+
+Node: dcid:Count_HateCrimeIncidents_TargetedSexualOrientationHomosexual
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:Homosexual
+
+Node: dcid:Offense_Count_HateCrimeIncidents_TargetedSexualOrientationHomosexual
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:Homosexual
+
+Node: dcid:Victim_Count_HateCrimeIncidents_TargetedSexualOrientationHomosexual
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Victim
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:Homosexual
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownOffender_TargetedSexualOrientationHomosexual
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+targetedSexualOrientation: dcs:Homosexual
+

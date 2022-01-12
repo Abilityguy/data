@@ -1,0 +1,99 @@
+{
+  "levelSummary": {
+    "LEVEL_INFO": {
+      "counters": {
+        "NumRowSuccesses": "878",
+        "NumPVSuccesses": "6146",
+        "Existence_NumChecks": "5277",
+        "NumNodeSuccesses": "878",
+        "Existence_NumDcCalls": "2"
+      }
+    },
+    "LEVEL_WARNING": {
+      "counters": {
+        "StatsCheck_MaxPercentFluctuationGreaterThan100": "1",
+        "StatsCheck_3_Sigma": "1",
+        "StatsCheck_MaxPercentFluctuationGreaterThan500": "1"
+      }
+    }
+  },
+  "statsCheckSummary": [{
+    "placeDcid": "geoId/05",
+    "statVarDcid": "Count_CriminalIncidents_IsHateCrime",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan100",
+      "problemPoints": [{
+        "date": "2007",
+        "values": [{
+          "value": 33.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "680"
+          }]
+        }]
+      }, {
+        "date": "2008",
+        "values": [{
+          "value": 91.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "629"
+          }]
+        }]
+      }],
+      "percentDifference": 175.76
+    }]
+  }, {
+    "placeDcid": "geoId/01",
+    "statVarDcid": "Count_CriminalIncidents_IsHateCrime",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "2011",
+        "values": [{
+          "value": 83.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "472"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2019",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "55"
+          }]
+        }]
+      }, {
+        "date": "2020",
+        "values": [{
+          "value": 27.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "3"
+          }]
+        }]
+      }],
+      "percentDifference": 2.7E9
+    }]
+  }],
+  "commandArgs": {
+    "existenceChecks": true,
+    "resolution": "RESOLUTION_MODE_LOCAL",
+    "numThreads": 1,
+    "statChecks": true
+  }
+}

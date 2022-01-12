@@ -11,167 +11,168 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-"""A script to process FBI Hate Crime table 1 publications."""
+"""A script to process FBI Hate Crime table 11 publications."""
 import os
 import sys
 import tempfile
 import csv
 import json
 import pandas as pd
+import numpy as np
 
 # Allows the following module imports to work when running as a script
 _SCRIPT_PATH = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.join(_SCRIPT_PATH,
-                             '../../../../util/'))  # for statvar_dcid_generator
+                             '../../../../util/'))  # state map
 
 from statvar_dcid_generator import get_statvar_dcid
+from alpha2_to_dcid import USSTATE_MAP
+from name_to_alpha2 import USSTATE_MAP_SPACE
 
 YEAR_INDEX = 0
 
 # Columns in final cleaned CSV
-OUTPUT_COLUMNS = ['Year', 'StatVar', 'Quantity']
+OUTPUT_COLUMNS = ('Year', 'Geo', 'StatVar', 'Quantity')
 
 # A config that maps the year to corresponding xls file with args to be used
-# with pandas.read_excel()
+# with pandas.read_excel().
 YEARWISE_CONFIG = {
     '2020': {
         'type': 'xls',
-        'path': '../source_data/2020/table_1.xlsx',
+        'path': '../source_data/2020/table_11.xlsx',
         'args': {
-            'header': 4,
-            'skipfooter': 3
+            'header': 6,
+            'skipfooter': 6 # remove all federal locations
         }
     },
     '2019': {
         'type': 'xls',
-        'path': '../source_data/2019/table_1.xls',
+        'path': '../source_data/2019/table_11.xls',
         'args': {
-            'header': 3,
-            'skipfooter': 3
+            'header': 5,
+            'skipfooter': 10
         }
     },
     '2018': {
         'type': 'xls',
-        'path': '../source_data/2018/table_1.xls',
+        'path': '../source_data/2018/table_11.xls',
         'args': {
-            'header': 3,
-            'skipfooter': 3
+            'header': 5,
+            'skipfooter': 8
         }
     },
     '2017': {
         'type': 'xls',
-        'path': '../source_data/2017/table_1.xls',
+        'path': '../source_data/2017/table_11.xls',
         'args': {
-            'header': 3,
-            'skipfooter': 3
+            'header': 5,
+            'skipfooter': 2
         }
     },
     '2016': {
         'type': 'xls',
-        'path': '../source_data/2016/table_1.xls',
+        'path': '../source_data/2016/table_11.xls',
         'args': {
-            'header': 3,
+            'header': 5,
             'skipfooter': 3
         }
     },
     '2015': {
         'type': 'xls',
-        'path': '../source_data/2015/table_1.xls',
+        'path': '../source_data/2015/table_11.xls',
         'args': {
-            'header': 3,
+            'header': 5,
             'skipfooter': 3
         }
     },
     '2014': {
         'type': 'xls',
-        'path': '../source_data/2014/table_1.xls',
+        'path': '../source_data/2014/table_11.xls',
         'args': {
-            'header': 3,
-            'skipfooter': 4
+            'header': 5,
+            'skipfooter': 3
         }
     },
     '2013': {
         'type': 'xls',
-        'path': '../source_data/2013/table_1.xls',
+        'path': '../source_data/2013/table_11.xls',
         'args': {
-            'header': 3,
-            'skipfooter': 4
+            'header': 5,
+            'skipfooter': 3
         }
     },
     '2012': {
         'type': 'xls',
-        'path': '../source_data/2012/table_1.xls',
+        'path': '../source_data/2012/table_11.xls',
         'args': {
-            'header': 3,
-            'skipfooter': 3
+            'header': 5,
+            'skipfooter': 1
         }
     },
     '2011': {
         'type': 'xls',
-        'path': '../source_data/2011/table_1.xls',
+        'path': '../source_data/2011/table_11.xls',
         'args': {
-            'header': 3,
-            'skipfooter': 3
+            'header': 4,
+            'skipfooter': 1
         }
     },
     '2010': {
         'type': 'xls',
-        'path': '../source_data/2010/table_1.xls',
+        'path': '../source_data/2010/table_11.xls',
         'args': {
-            'header': 2,
-            'skipfooter': 3
+            'header': 3,
+            'skipfooter': 1
         }
     },
     '2009': {
         'type': 'xls',
-        'path': '../source_data/2009/table_1.xls',
+        'path': '../source_data/2009/table_11.xls',
         'args': {
-            'header': 2,
-            'skipfooter': 3
+            'header': 3,
+            'skipfooter': 1
         }
     },
     '2008': {
         'type': 'xls',
-        'path': '../source_data/2008/table_1.xls',
+        'path': '../source_data/2008/table_11.xls',
         'args': {
-            'header': 2,
-            'skipfooter': 3
+            'header': 3,
+            'skipfooter': 1
         }
     },
     '2007': {
         'type': 'xls',
-        'path': '../source_data/2007/table_1.xls',
+        'path': '../source_data/2007/table_11.xls',
         'args': {
-            'header': 2,
-            'skipfooter': 3
+            'header': 3,
+            'skipfooter': 1
         }
     },
     '2006': {
         'type': 'xls',
-        'path': '../source_data/2006/table_1.xls',
+        'path': '../source_data/2006/table_11.xls',
         'args': {
-            'header': 2,
-            'skipfooter': 3
+            'header': 3,
+            'skipfooter': 1
         }
     },
     '2005': {
         'type': 'xls',
-        'path': '../source_data/2005/table_1.xls',
+        'path': '../source_data/2005/table_11.xls',
         'args': {
-            'header': 2,
-            'skipfooter': 3
+            'header': 3,
+            'skipfooter': 1
         }
     },
     '2004': {
         'type': 'xls',
-        'path': '../source_data/2004/table_1.xls',
+        'path': '../source_data/2004/table_11.xlsx',
         'args': {
-            'header': 2,
-            'skipfooter': 3
+            'header': 3
         }
     }
 }
-
 
 def _create_csv_mcf(csv_files: list, cleaned_csv_path: str,
                     config: dict) -> list:
@@ -182,7 +183,7 @@ def _create_csv_mcf(csv_files: list, cleaned_csv_path: str,
         csv_files: A list of CSV file paths to process.
         cleaned_csv_path: Path of the final cleaned CSV file.
         config: A dict which maps constraint props to the statvar based on
-          values in the CSV. See scripts/fbi/hate_crime/table1/config.json for
+          values in the CSV. See scripts/fbi/hate_crime/table2/config.json for
           an example.
 
     Returns:
@@ -219,11 +220,12 @@ def _update_statvar_dcids(statvar_list: list, config: dict):
         d['Node'] = dcid
 
 
-def _write_row(year: int, statvar_dcid: str, quantity: str,
+def _write_row(year: int, geo: str, statvar_dcid: str, quantity: str,
                writer: csv.DictWriter):
     """A wrapper to write data to the cleaned CSV."""
     processed_dict = {
         'Year': year,
+        'Geo': geo,
         'StatVar': statvar_dcid,
         'Quantity': quantity
     }
@@ -237,7 +239,7 @@ def _get_dpv(statvar: dict, config: dict) -> list:
     Args:
         statvar: A dictionary of prop:values of the statvar
         config: A dict which maps constraint props to the statvar based on
-          values in the CSV. See scripts/fbi/hate_crime/config.json for
+          values in the CSV. See scripts/fbi/hate_crime/table2/config.json for
           an example. The 'dpv' key is used to identify dependent properties.
 
     Returns:
@@ -263,35 +265,35 @@ def _write_output_csv(reader: csv.DictReader, writer: csv.DictWriter,
         reader: CSV dict reader.
         writer: CSV dict writer of final cleaned CSV.
         config: A dict which maps constraint props to the statvar based on
-          values in the CSV. See scripts/fbi/hate_crime/config.json for
+          values in the CSV. See scripts/fbi/hate_crime/table2/config.json for
           an example.
 
     Returns:
         A list of statvars.
     """
     statvars = []
+    columns = list(reader.fieldnames)
+    columns.remove('state')
+    columns.remove('Year')
+    
     for crime in reader:
-        incident_statvar = {**config['populationType']['Incidents']}
-        offense_statvar = {**config['populationType']['Offenses']}
-        victim_statvar = {**config['populationType']['Victims']}
-        offender_statvar = {**config['populationType']['KnownOffender']}
-
-        statvar_list = [
-            incident_statvar, offense_statvar, victim_statvar, offender_statvar
-        ]
-        bias_motivation = crime['bias motivation']
-        bias_key_value = config['pvs'][bias_motivation]
-        _update_statvars(statvar_list, bias_key_value)
+        geo = crime['state']
+        if geo == 'Total':
+            geo_id = 'country/USA'
+        else:
+            geo_alpha = USSTATE_MAP_SPACE[geo]
+            geo_id = USSTATE_MAP[geo_alpha]
+        
+        statvar_list = []
+        for c in columns:
+            statvar = {**config['populationType'][c]}
+            statvar_list.append(statvar)
+        
         _update_statvar_dcids(statvar_list, config)
 
-        _write_row(crime['Year'], incident_statvar['Node'], crime['incidents'],
-                   writer)
-        _write_row(crime['Year'], offense_statvar['Node'], crime['offenses'],
-                   writer)
-        _write_row(crime['Year'], victim_statvar['Node'], crime['victims'],
-                   writer)
-        _write_row(crime['Year'], offender_statvar['Node'],
-                   crime['known offenders'], writer)
+        for idx, c in enumerate(columns):
+            if crime[c] != np.nan:
+                _write_row(crime['Year'], geo_id, statvar_list[idx]['Node'], crime[c], writer)
 
         statvars.extend(statvar_list)
 
@@ -318,21 +320,42 @@ def _create_mcf(stat_vars: list, mcf_file_path: str):
         f.write(final_mcf)
 
 
-def _clean_dataframe(df: pd.DataFrame):
-    """Clean the column names and bias motivation values in a dataframe."""
-    df.columns = df.columns.str.replace(r'\n', ' ', regex=True)
-    df.columns = df.columns.str.replace(r'\s+', ' ', regex=True)
-    df.columns = df.columns.str.replace(r'\d+', '', regex=True)
-    df.columns = df.columns.str.lower()
-    df.columns = df.columns.str.strip()
-
-    df['bias motivation'] = df['bias motivation'].replace(r'[\d:]+',
-                                                          '',
-                                                          regex=True)
-    df['bias motivation'] = df['bias motivation'].replace(r'\s+',
-                                                          ' ',
-                                                          regex=True)
-    df['bias motivation'] = df['bias motivation'].str.strip()
+def _clean_dataframe(df: pd.DataFrame, year: str):
+    """Clean the column names and offense type values in a dataframe."""
+    if year in ['2020', '2018']:
+        df.columns = ['state', 'total offenses', 'murder', 'rape', 
+            'aggravated assault', 'simple assault', 'intimidation',
+            'other crimes against person', 'robbery', 'burglary',
+            'larceny theft', 'motor vehicle theft', 'arson', 'vandalism',
+            'other crimes against property', 'crimes against society'
+        ]
+    elif year in ['2019', '2017']:
+        df.columns = ['state', 'total offenses', 'murder', 'rape', 
+            'aggravated assault', 'simple assault', 'intimidation',
+            'trafficking', 'other crimes against person', 'robbery', 
+            'burglary', 'larceny theft', 'motor vehicle theft', 'arson', 
+            'vandalism', 'other crimes against property', 
+            'crimes against society'
+        ]
+    elif year in ['2016', '2015', '2014', '2013']:
+        df.columns = ['state', 'total offenses', 'murder', 'rape1', 'rape2',
+            'aggravated assault', 'simple assault', 'intimidation',
+            'other crimes against person', 'robbery', 'burglary', 
+            'larceny theft', 'motor vehicle theft', 'arson', 'vandalism', 
+            'other crimes against property', 'crimes against society'
+        ]
+        df['rape1'].fillna(0, inplace=True)
+        df['rape2'].fillna(0, inplace=True)
+        df['rape'] = df['rape1'] + df['rape2']
+        df.drop(['rape1', 'rape2'], axis=1, inplace=True)
+    else: # 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004
+        df.columns = ['state', 'total offenses', 'murder', 'forcible rape',
+            'aggravated assault', 'simple assault', 'intimidation',
+            'other crimes against person', 'robbery', 'burglary', 
+            'larceny theft', 'motor vehicle theft', 'arson', 'vandalism', 
+            'other crimes against property', 'crimes against society'
+        ]
+    df.state = df.state.str.replace(r'\d+', '', regex=True)
     return df
 
 
@@ -343,10 +366,11 @@ if __name__ == '__main__':
             xls_file_path = os.path.join(_SCRIPT_PATH, config['path'])
             csv_file_path = os.path.join(tmp_dir, year + '.csv')
 
-            read_file = pd.read_excel(xls_file_path, **config['args'])
-            read_file = _clean_dataframe(read_file)
+            read_file = pd.read_excel(xls_file_path,
+                                    **config['args'])
+            read_file = _clean_dataframe(read_file, year)
             read_file.insert(YEAR_INDEX, 'Year', year)
-            read_file.to_csv(csv_file_path, index=None, header=True)
+            read_file.to_csv(csv_file_path, header=True, index=False)
             csv_files.append(csv_file_path)
 
         config_path = os.path.join(_SCRIPT_PATH, 'config.json')

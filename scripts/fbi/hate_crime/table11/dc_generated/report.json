@@ -1,0 +1,965 @@
+{
+  "levelSummary": {
+    "LEVEL_INFO": {
+      "counters": {
+        "NumRowSuccesses": "13153",
+        "NumPVSuccesses": "92071",
+        "Existence_NumChecks": "79124",
+        "NumNodeSuccesses": "13153",
+        "Existence_NumDcCalls": "2"
+      }
+    },
+    "LEVEL_WARNING": {
+      "counters": {
+        "StatsCheck_MaxPercentFluctuationGreaterThan100": "14",
+        "StatsCheck_3_Sigma": "24",
+        "StatsCheck_MaxPercentFluctuationGreaterThan500": "47"
+      }
+    }
+  },
+  "statsCheckSummary": [{
+    "placeDcid": "geoId/06",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_MotorVehicleTheft",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2017",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "2485"
+          }]
+        }]
+      }, {
+        "date": "2018",
+        "values": [{
+          "value": 4.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "1699"
+          }]
+        }]
+      }],
+      "percentDifference": 4.0E8
+    }]
+  }, {
+    "placeDcid": "geoId/06",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_LarcenyTheft",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan100",
+      "problemPoints": [{
+        "date": "2007",
+        "values": [{
+          "value": 3.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "10179"
+          }]
+        }]
+      }, {
+        "date": "2008",
+        "values": [{
+          "value": 13.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "9414"
+          }]
+        }]
+      }],
+      "percentDifference": 333.33
+    }]
+  }, {
+    "placeDcid": "geoId/06",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_ForcibleRape",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2007",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "10172"
+          }]
+        }]
+      }, {
+        "date": "2008",
+        "values": [{
+          "value": 2.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "9407"
+          }]
+        }]
+      }],
+      "percentDifference": 2.0E8
+    }]
+  }, {
+    "placeDcid": "geoId/06",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_Arson",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan100",
+      "problemPoints": [{
+        "date": "2015",
+        "values": [{
+          "value": 5.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "4060"
+          }]
+        }]
+      }, {
+        "date": "2016",
+        "values": [{
+          "value": 12.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "3295"
+          }]
+        }]
+      }],
+      "percentDifference": 140.0
+    }]
+  }, {
+    "placeDcid": "geoId/06",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_OtherCrimesAgainstPerson",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "2020",
+        "values": [{
+          "value": 1.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "83"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2019",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "869"
+          }]
+        }]
+      }, {
+        "date": "2020",
+        "values": [{
+          "value": 1.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "83"
+          }]
+        }]
+      }],
+      "percentDifference": 1.0E8
+    }]
+  }, {
+    "placeDcid": "geoId/06",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_MurderAndNonNegligentManslaughter",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2016",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "3286"
+          }]
+        }]
+      }, {
+        "date": "2017",
+        "values": [{
+          "value": 3.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "2475"
+          }]
+        }]
+      }],
+      "percentDifference": 3.0E8
+    }]
+  }, {
+    "placeDcid": "geoId/05",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_Robbery",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2007",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "10162"
+          }]
+        }]
+      }, {
+        "date": "2008",
+        "values": [{
+          "value": 1.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "9397"
+          }]
+        }]
+      }],
+      "percentDifference": 1.0E8
+    }]
+  }, {
+    "placeDcid": "geoId/05",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_MotorVehicleTheft",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "2008",
+        "values": [{
+          "value": 3.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "9400"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2007",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "10165"
+          }]
+        }]
+      }, {
+        "date": "2008",
+        "values": [{
+          "value": 3.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "9400"
+          }]
+        }]
+      }],
+      "percentDifference": 3.0E8
+    }]
+  }, {
+    "placeDcid": "geoId/05",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_Burglary",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2015",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "4042"
+          }]
+        }]
+      }, {
+        "date": "2016",
+        "values": [{
+          "value": 1.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "3277"
+          }]
+        }]
+      }],
+      "percentDifference": 1.0E8
+    }]
+  }, {
+    "placeDcid": "geoId/05",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_SimpleAssault",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2015",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "4038"
+          }]
+        }]
+      }, {
+        "date": "2016",
+        "values": [{
+          "value": 5.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "3273"
+          }]
+        }]
+      }],
+      "percentDifference": 5.0E8
+    }]
+  }, {
+    "placeDcid": "geoId/05",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_OtherCrimesAgainstProperty",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2007",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "10168"
+          }]
+        }]
+      }, {
+        "date": "2008",
+        "values": [{
+          "value": 1.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "9403"
+          }]
+        }]
+      }],
+      "percentDifference": 1.0E8
+    }]
+  }, {
+    "placeDcid": "geoId/05",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_Intimidation",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan100",
+      "problemPoints": [{
+        "date": "2019",
+        "values": [{
+          "value": 2.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "851"
+          }]
+        }]
+      }, {
+        "date": "2020",
+        "values": [{
+          "value": 7.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "67"
+          }]
+        }]
+      }],
+      "percentDifference": 250.0
+    }]
+  }, {
+    "placeDcid": "geoId/05",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_AggravatedAssault",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan100",
+      "problemPoints": [{
+        "date": "2018",
+        "values": [{
+          "value": 1.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "1677"
+          }]
+        }]
+      }, {
+        "date": "2019",
+        "values": [{
+          "value": 4.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "849"
+          }]
+        }]
+      }],
+      "percentDifference": 300.0
+    }]
+  }, {
+    "placeDcid": "geoId/05",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_LarcenyTheft",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2011",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "7104"
+          }]
+        }]
+      }, {
+        "date": "2012",
+        "values": [{
+          "value": 2.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "6354"
+          }]
+        }]
+      }],
+      "percentDifference": 2.0E8
+    }]
+  }, {
+    "placeDcid": "geoId/05",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_DestructionOrDamageOrVandalismOfProperty",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan100",
+      "problemPoints": [{
+        "date": "2011",
+        "values": [{
+          "value": 2.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "7107"
+          }]
+        }]
+      }, {
+        "date": "2012",
+        "values": [{
+          "value": 8.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "6357"
+          }]
+        }]
+      }],
+      "percentDifference": 300.0
+    }]
+  }, {
+    "placeDcid": "geoId/05",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_MurderAndNonNegligentManslaughter",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "2013",
+        "values": [{
+          "value": 1.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "5581"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2012",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "6346"
+          }]
+        }]
+      }, {
+        "date": "2013",
+        "values": [{
+          "value": 1.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "5581"
+          }]
+        }]
+      }],
+      "percentDifference": 1.0E8
+    }]
+  }, {
+    "placeDcid": "geoId/05",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan100",
+      "problemPoints": [{
+        "date": "2007",
+        "values": [{
+          "value": 38.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "10155"
+          }]
+        }]
+      }, {
+        "date": "2008",
+        "values": [{
+          "value": 109.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "9390"
+          }]
+        }]
+      }],
+      "percentDifference": 186.84
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_MotorVehicleTheft",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan100",
+      "problemPoints": [{
+        "date": "2011",
+        "values": [{
+          "value": 6.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "7045"
+          }]
+        }]
+      }, {
+        "date": "2012",
+        "values": [{
+          "value": 23.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "6295"
+          }]
+        }]
+      }],
+      "percentDifference": 283.33
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_Intimidation",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "2020",
+        "values": [{
+          "value": 4119.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "7"
+          }]
+        }]
+      }]
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_HumanTraffickingCommercialSexActs",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan100",
+      "problemPoints": [{
+        "date": "2017",
+        "values": [{
+          "value": 1.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "2400"
+          }]
+        }]
+      }, {
+        "date": "2019",
+        "values": [{
+          "value": 3.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "788"
+          }]
+        }]
+      }],
+      "percentDifference": 200.0
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_ForcibleRape",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan100",
+      "problemPoints": [{
+        "date": "2007",
+        "values": [{
+          "value": 2.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "10097"
+          }]
+        }]
+      }, {
+        "date": "2008",
+        "values": [{
+          "value": 11.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "9332"
+          }]
+        }]
+      }],
+      "percentDifference": 450.0
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_OtherCrimesAgainstPerson",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan100",
+      "problemPoints": [{
+        "date": "2014",
+        "values": [{
+          "value": 6.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "4760"
+          }]
+        }]
+      }, {
+        "date": "2015",
+        "values": [{
+          "value": 20.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "3980"
+          }]
+        }]
+      }],
+      "percentDifference": 233.33
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_MurderAndNonNegligentManslaughter",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "2019",
+        "values": [{
+          "value": 51.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "783"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan100",
+      "problemPoints": [{
+        "date": "2014",
+        "values": [{
+          "value": 4.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "4756"
+          }]
+        }]
+      }, {
+        "date": "2015",
+        "values": [{
+          "value": 18.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "3976"
+          }]
+        }]
+      }],
+      "percentDifference": 350.0
+    }]
+  }, {
+    "placeDcid": "geoId/04",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_ForcibleRape",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "2017",
+        "values": [{
+          "value": 2.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "2444"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2016",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "3269"
+          }]
+        }]
+      }, {
+        "date": "2017",
+        "values": [{
+          "value": 2.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "2444"
+          }]
+        }]
+      }],
+      "percentDifference": 2.0E8
+    }]
+  }, {
+    "placeDcid": "geoId/04",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_OtherCrimesAgainstPerson",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "2020",
+        "values": [{
+          "value": 3.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "53"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2019",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "837"
+          }]
+        }]
+      }, {
+        "date": "2020",
+        "values": [{
+          "value": 3.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "53"
+          }]
+        }]
+      }],
+      "percentDifference": 3.0E8
+    }]
+  }, {
+    "placeDcid": "geoId/04",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_MurderAndNonNegligentManslaughter",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "2020",
+        "values": [{
+          "value": 2.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "48"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2019",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "831"
+          }]
+        }]
+      }, {
+        "date": "2020",
+        "values": [{
+          "value": 2.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "48"
+          }]
+        }]
+      }],
+      "percentDifference": 2.0E8
+    }]
+  }, {
+    "placeDcid": "geoId/02",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_Burglary",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "2013",
+        "values": [{
+          "value": 1.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "5557"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2012",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "6323"
+          }]
+        }]
+      }, {
+        "date": "2013",
+        "values": [{
+          "value": 1.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "5557"
+          }]
+        }]
+      }],
+      "percentDifference": 1.0E8
+    }]
+  }, {
+    "placeDcid": "geoId/02",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_Intimidation",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "2015",
+        "values": [{
+          "value": 13.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "4009"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2014",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "4789"
+          }]
+        }]
+      }, {
+        "date": "2015",
+        "values": [{
+          "value": 13.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "4009"
+          }]
+        }]
+      }],
+      "percentDifference": 1.3E9
+    }]
+  }],
+  "commandArgs": {
+    "existenceChecks": true,
+    "resolution": "RESOLUTION_MODE_LOCAL",
+    "numThreads": 1,
+    "statChecks": true
+  }
+}

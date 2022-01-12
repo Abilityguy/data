@@ -1,29 +1,124 @@
 {
     "populationType": {
-        "Incidents": {
-            "populationType": "HateCrimeIncidents",
-            "statType": "measuredValue",
-            "measuredProperty": "count",
-            "typeOf": "StatisticalVariable"
-        },
-        "Offenses": {
+        "total offenses": {
             "populationType": "HateCrimeIncidents",
             "measurementQualifier": "Offense",
             "statType": "measuredValue",
             "measuredProperty": "count",
             "typeOf": "StatisticalVariable"
         },
-        "Victims": {
+        "white": {
             "populationType": "HateCrimeIncidents",
-            "measurementQualifier": "Victim",
+            "measurementQualifier": "Offense",
+            "offenderType": "KnownOffenderRace",
+            "offenderRace": "WhiteAlone",
             "statType": "measuredValue",
             "measuredProperty": "count",
             "typeOf": "StatisticalVariable"
         },
-        "KnownOffender": {
+        "black or african american": {
             "populationType": "HateCrimeIncidents",
-            "measurementQualifier": "Offender",
-            "offenderType": "KnownOffender",
+            "measurementQualifier": "Offense",
+            "offenderType": "KnownOffenderRace",
+            "offenderRace": "BlackOrAfricanAmericanAlone",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "american indian or alaska native": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Offense",
+            "offenderType": "KnownOffenderRace",
+            "offenderRace": "AmericanIndianOrAlaskaNativeAlone",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "asian": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Offense",
+            "offenderType": "KnownOffenderRace",
+            "offenderRace": "AsianAlone",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "asian or pacific islander": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Offense",
+            "offenderType": "KnownOffenderRace",
+            "offenderRace": "AsianOrPacificIslander",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "native hawaiian or other pacific islander": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Offense",
+            "offenderType": "KnownOffenderRace",
+            "offenderRace": "NativeHawaiianOrOtherPacificIslanderAlone",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "multiple races": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Offense",
+            "offenderType": "KnownOffenderRace",
+            "offenderRace": "TwoOrMoreRaces",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "unknown race": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Offense",
+            "offenderType": "KnownOffenderRace",
+            "offenderRace": "UnknownRace",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "hispanic or latino": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Offense",
+            "offenderType": "KnownOffenderEthnicity",
+            "offenderEthnicity": "HispanicOrLatino",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "not hispanic or latino": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Offense",
+            "offenderType": "KnownOffenderEthnicity",
+            "offenderEthnicity": "NotHispanicOrLatino",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "group of multiple ethnicities": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Offense",
+            "offenderType": "KnownOffenderEthnicity",
+            "offenderEthnicity": "UCR_MultipleEthnicity",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "unknown ethnicity": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Offense",
+            "offenderType": "KnownOffenderEthnicity",
+            "offenderEthnicity": "UCR_UnknownEthnicity",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "unknown offender": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Offense",
+            "offenderType": "UnknownOffender",
             "statType": "measuredValue",
             "measuredProperty": "count",
             "typeOf": "StatisticalVariable"
@@ -35,6 +130,9 @@
             "biasMotivation": "SingleBias"
         },
         "Race/Ethnicity/Ancestry": {
+            "biasMotivation": "RaceOrEthnicity"
+        },
+        "Race/Ethnicity/Ancestry:": {
             "biasMotivation": "RaceOrEthnicity"
         },
         "Race": {
@@ -109,6 +207,9 @@
         "Religion": {
             "biasMotivation": "religion"
         },
+        "Religion:": {
+            "biasMotivation": "religion"
+        },
         "Anti-Jewish": {
             "biasMotivation": "religion",
             "targetedReligion": "Judaism"
@@ -176,6 +277,9 @@
         "Sexual Orientation": {
             "biasMotivation": "sexualOrientation"
         },
+        "Sexual Orientation:": {
+            "biasMotivation": "sexualOrientation"
+        },
         "Anti-Homosexual": {
             "biasMotivation": "sexualOrientation",
             "targetedSexualOrientation": "Homosexual"
@@ -211,6 +315,9 @@
         "Disability": {
             "biasMotivation": "disabilityStatus"
         },
+        "Disability:": {
+            "biasMotivation": "disabilityStatus"
+        },
         "Anti-Physical": {
             "biasMotivation": "disabilityStatus",
             "targetedDisabilityStatus": "PhysicalDisability"
@@ -222,6 +329,9 @@
         "Gender": {
             "biasMotivation": "gender"
         },
+        "Gender:": {
+            "biasMotivation": "gender"
+        },
         "Anti-Male": {
             "biasMotivation": "gender",
             "targetedGender": "Male"
@@ -231,6 +341,10 @@
             "targetedGender": "Female"
         },
         "Gender Identity": {
+            "biasMotivation": "gender",
+            "targetedGender": "TransgenderOrGenderNonConforming"
+        },
+        "Gender Identity:": {
             "biasMotivation": "gender",
             "targetedGender": "TransgenderOrGenderNonConforming"
         },

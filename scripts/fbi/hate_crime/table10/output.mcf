@@ -1,0 +1,3718 @@
+Node: dcid:Count_HateCrimeIncidents
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeAbandonedOrCondemnedStructure
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:AbandonedOrCondemnedStructure
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeAbandonedOrCondemnedStructure
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:AbandonedOrCondemnedStructure
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeAbandonedOrCondemnedStructure
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:AbandonedOrCondemnedStructure
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeAbandonedOrCondemnedStructure
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:AbandonedOrCondemnedStructure
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeAbandonedOrCondemnedStructure
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:AbandonedOrCondemnedStructure
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeAbandonedOrCondemnedStructure
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:AbandonedOrCondemnedStructure
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeAbandonedOrCondemnedStructure_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:AbandonedOrCondemnedStructure
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeAbandonedOrCondemnedStructure
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:AbandonedOrCondemnedStructure
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeAirportOrBusStationOrTrainStation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:Airport__BusStation__TrainStation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeAirportOrBusStationOrTrainStation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:Airport__BusStation__TrainStation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeAirportOrBusStationOrTrainStation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:Airport__BusStation__TrainStation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeAirportOrBusStationOrTrainStation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:Airport__BusStation__TrainStation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeAirportOrBusStationOrTrainStation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:Airport__BusStation__TrainStation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeAirportOrBusStationOrTrainStation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:Airport__BusStation__TrainStation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeAirportOrBusStationOrTrainStation_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:Airport__BusStation__TrainStation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeAirportOrBusStationOrTrainStation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:Airport__BusStation__TrainStation
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeAmusementPark
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:AmusementPark
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeAmusementPark
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:AmusementPark
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeAmusementPark
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:AmusementPark
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeAmusementPark
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:AmusementPark
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeAmusementPark
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:AmusementPark
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeAmusementPark
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:AmusementPark
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeAmusementPark_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:AmusementPark
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeAmusementPark
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:AmusementPark
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeStadiumOrArena
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:StadiumOrArena
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeStadiumOrArena
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:StadiumOrArena
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeStadiumOrArena
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:StadiumOrArena
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeStadiumOrArena
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:StadiumOrArena
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeStadiumOrArena
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:StadiumOrArena
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeStadiumOrArena
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:StadiumOrArena
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeStadiumOrArena_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:StadiumOrArena
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeStadiumOrArena
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:StadiumOrArena
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeAutoDealer
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:AutoDealer
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeAutoDealer
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:AutoDealer
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeAutoDealer
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:AutoDealer
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeAutoDealer
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:AutoDealer
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeAutoDealer
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:AutoDealer
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeAutoDealer
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:AutoDealer
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeAutoDealer_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:AutoDealer
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeAutoDealer
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:AutoDealer
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeBankOrSavingsAndLoan
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:BankOrSavingsAndLoan
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeBankOrSavingsAndLoan
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:BankOrSavingsAndLoan
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeBankOrSavingsAndLoan
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:BankOrSavingsAndLoan
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeBankOrSavingsAndLoan
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:BankOrSavingsAndLoan
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeBankOrSavingsAndLoan
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:BankOrSavingsAndLoan
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeBankOrSavingsAndLoan
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:BankOrSavingsAndLoan
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeBankOrSavingsAndLoan_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:BankOrSavingsAndLoan
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeBankOrSavingsAndLoan
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:BankOrSavingsAndLoan
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeBarOrPubOrNightClub
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:BarOrPub__NightClub
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeBarOrPubOrNightClub
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:BarOrPub__NightClub
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeBarOrPubOrNightClub
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:BarOrPub__NightClub
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeBarOrPubOrNightClub
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:BarOrPub__NightClub
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeBarOrPubOrNightClub
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:BarOrPub__NightClub
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeBarOrPubOrNightClub
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:BarOrPub__NightClub
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeBarOrPubOrNightClub_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:BarOrPub__NightClub
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeBarOrPubOrNightClub
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:BarOrPub__NightClub
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeCampground
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:Campground
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeCampground
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:Campground
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeCampground
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:Campground
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeCampground
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:Campground
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeCampground
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:Campground
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeCampground
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:Campground
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeCampground_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:Campground
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeCampground
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:Campground
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimePlaceOfWorship
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:PlaceOfWorship
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimePlaceOfWorship
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:PlaceOfWorship
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimePlaceOfWorship
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:PlaceOfWorship
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimePlaceOfWorship
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:PlaceOfWorship
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimePlaceOfWorship
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:PlaceOfWorship
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimePlaceOfWorship
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:PlaceOfWorship
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimePlaceOfWorship_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:PlaceOfWorship
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimePlaceOfWorship
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:PlaceOfWorship
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeCommercialOrOfficeBuilding
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:CommercialOrOfficeBuilding
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeCommercialOrOfficeBuilding
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:CommercialOrOfficeBuilding
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeCommercialOrOfficeBuilding
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:CommercialOrOfficeBuilding
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeCommercialOrOfficeBuilding
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:CommercialOrOfficeBuilding
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeCommercialOrOfficeBuilding
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:CommercialOrOfficeBuilding
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeCommercialOrOfficeBuilding
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:CommercialOrOfficeBuilding
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeCommercialOrOfficeBuilding_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:CommercialOrOfficeBuilding
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeCommercialOrOfficeBuilding
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:CommercialOrOfficeBuilding
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeCommunityCenter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:CommunityCenter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeCommunityCenter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:CommunityCenter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeCommunityCenter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:CommunityCenter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeCommunityCenter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:CommunityCenter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeCommunityCenter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:CommunityCenter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeCommunityCenter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:CommunityCenter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeCommunityCenter_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:CommunityCenter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeCommunityCenter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:CommunityCenter
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeConstructionSite
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:ConstructionSite
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeConstructionSite
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:ConstructionSite
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeConstructionSite
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:ConstructionSite
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeConstructionSite
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:ConstructionSite
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeConstructionSite
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:ConstructionSite
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeConstructionSite
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:ConstructionSite
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeConstructionSite_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:ConstructionSite
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeConstructionSite
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:ConstructionSite
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeConvenienceStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:ConvenienceStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeConvenienceStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:ConvenienceStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeConvenienceStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:ConvenienceStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeConvenienceStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:ConvenienceStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeConvenienceStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:ConvenienceStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeConvenienceStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:ConvenienceStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeConvenienceStore_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:ConvenienceStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeConvenienceStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:ConvenienceStore
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeCyberspace
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:Cyberspace
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeCyberspace
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:Cyberspace
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeCyberspace
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:Cyberspace
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeCyberspace
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:Cyberspace
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeCyberspace
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:Cyberspace
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeCyberspace
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:Cyberspace
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeCyberspace_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:Cyberspace
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeCyberspace
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:Cyberspace
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeChildCare
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:ChildCare
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeChildCare
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:ChildCare
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeChildCare
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:ChildCare
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeChildCare
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:ChildCare
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeChildCare
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:ChildCare
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeChildCare
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:ChildCare
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeChildCare_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:ChildCare
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeChildCare
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:ChildCare
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeDepartmentStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:DepartmentStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeDepartmentStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:DepartmentStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeDepartmentStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:DepartmentStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeDepartmentStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:DepartmentStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeDepartmentStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:DepartmentStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeDepartmentStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:DepartmentStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeDepartmentStore_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:DepartmentStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeDepartmentStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:DepartmentStore
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeDockOrWharfOrFreightOrModalTerminal
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:DockOrWharfOrFreightOrModalTerminal
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeDockOrWharfOrFreightOrModalTerminal
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:DockOrWharfOrFreightOrModalTerminal
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeDockOrWharfOrFreightOrModalTerminal
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:DockOrWharfOrFreightOrModalTerminal
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeDockOrWharfOrFreightOrModalTerminal
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:DockOrWharfOrFreightOrModalTerminal
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeDockOrWharfOrFreightOrModalTerminal
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:DockOrWharfOrFreightOrModalTerminal
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeDockOrWharfOrFreightOrModalTerminal
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:DockOrWharfOrFreightOrModalTerminal
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeDockOrWharfOrFreightOrModalTerminal_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:DockOrWharfOrFreightOrModalTerminal
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeDockOrWharfOrFreightOrModalTerminal
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:DockOrWharfOrFreightOrModalTerminal
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeMedicalBusiness
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:MedicalBusiness
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeMedicalBusiness
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:MedicalBusiness
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeMedicalBusiness
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:MedicalBusiness
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeMedicalBusiness
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:MedicalBusiness
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeMedicalBusiness
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:MedicalBusiness
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeMedicalBusiness
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:MedicalBusiness
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeMedicalBusiness_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:MedicalBusiness
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeMedicalBusiness
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:MedicalBusiness
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeFarmFacility
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:FarmFacility
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeFarmFacility
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:FarmFacility
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeFarmFacility
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:FarmFacility
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeFarmFacility
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:FarmFacility
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeFarmFacility
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:FarmFacility
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeFarmFacility
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:FarmFacility
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeFarmFacility_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:FarmFacility
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeFarmFacility
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:FarmFacility
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeFieldOrWoods
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:FieldOrWoods
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeFieldOrWoods
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:FieldOrWoods
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeFieldOrWoods
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:FieldOrWoods
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeFieldOrWoods
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:FieldOrWoods
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeFieldOrWoods
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:FieldOrWoods
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeFieldOrWoods
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:FieldOrWoods
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeFieldOrWoods_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:FieldOrWoods
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeFieldOrWoods
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:FieldOrWoods
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeGamblingFacilityOrCasinoOrRaceTrack
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:GamblingFacilityOrCasinoOrRaceTrack
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeGamblingFacilityOrCasinoOrRaceTrack
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:GamblingFacilityOrCasinoOrRaceTrack
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeGamblingFacilityOrCasinoOrRaceTrack
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:GamblingFacilityOrCasinoOrRaceTrack
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeGamblingFacilityOrCasinoOrRaceTrack
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:GamblingFacilityOrCasinoOrRaceTrack
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeGamblingFacilityOrCasinoOrRaceTrack
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:GamblingFacilityOrCasinoOrRaceTrack
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeGamblingFacilityOrCasinoOrRaceTrack
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:GamblingFacilityOrCasinoOrRaceTrack
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeGamblingFacilityOrCasinoOrRaceTrack_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:GamblingFacilityOrCasinoOrRaceTrack
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeGamblingFacilityOrCasinoOrRaceTrack
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:GamblingFacilityOrCasinoOrRaceTrack
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeGovernmentOrPublicBuilding
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:GovernmentOrPublicBuilding
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeGovernmentOrPublicBuilding
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:GovernmentOrPublicBuilding
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeGovernmentOrPublicBuilding
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:GovernmentOrPublicBuilding
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeGovernmentOrPublicBuilding
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:GovernmentOrPublicBuilding
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeGovernmentOrPublicBuilding
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:GovernmentOrPublicBuilding
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeGovernmentOrPublicBuilding
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:GovernmentOrPublicBuilding
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeGovernmentOrPublicBuilding_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:GovernmentOrPublicBuilding
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeGovernmentOrPublicBuilding
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:GovernmentOrPublicBuilding
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeGroceryStoreOrSupermarket
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:GroceryStore__Supermarket
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeGroceryStoreOrSupermarket
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:GroceryStore__Supermarket
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeGroceryStoreOrSupermarket
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:GroceryStore__Supermarket
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeGroceryStoreOrSupermarket
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:GroceryStore__Supermarket
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeGroceryStoreOrSupermarket
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:GroceryStore__Supermarket
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeGroceryStoreOrSupermarket
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:GroceryStore__Supermarket
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeGroceryStoreOrSupermarket_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:GroceryStore__Supermarket
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeGroceryStoreOrSupermarket
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:GroceryStore__Supermarket
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeHighwayOrRoadOrAlleyOrStreetOrSidewalk
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:HighwayOrRoadOrAlleyOrStreetOrSidewalk
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeHighwayOrRoadOrAlleyOrStreetOrSidewalk
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:HighwayOrRoadOrAlleyOrStreetOrSidewalk
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeHighwayOrRoadOrAlleyOrStreetOrSidewalk
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:HighwayOrRoadOrAlleyOrStreetOrSidewalk
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeHighwayOrRoadOrAlleyOrStreetOrSidewalk
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:HighwayOrRoadOrAlleyOrStreetOrSidewalk
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeHighwayOrRoadOrAlleyOrStreetOrSidewalk
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:HighwayOrRoadOrAlleyOrStreetOrSidewalk
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeHighwayOrRoadOrAlleyOrStreetOrSidewalk
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:HighwayOrRoadOrAlleyOrStreetOrSidewalk
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeHighwayOrRoadOrAlleyOrStreetOrSidewalk_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:HighwayOrRoadOrAlleyOrStreetOrSidewalk
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeHighwayOrRoadOrAlleyOrStreetOrSidewalk
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:HighwayOrRoadOrAlleyOrStreetOrSidewalk
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeLodgingBusiness
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:LodgingBusiness
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeLodgingBusiness
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:LodgingBusiness
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeLodgingBusiness
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:LodgingBusiness
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeLodgingBusiness
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:LodgingBusiness
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeLodgingBusiness
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:LodgingBusiness
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeLodgingBusiness
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:LodgingBusiness
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeLodgingBusiness_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:LodgingBusiness
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeLodgingBusiness
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:LodgingBusiness
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeIndustrialSite
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:IndustrialSite
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeIndustrialSite
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:IndustrialSite
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeIndustrialSite
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:IndustrialSite
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeIndustrialSite
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:IndustrialSite
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeIndustrialSite
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:IndustrialSite
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeIndustrialSite
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:IndustrialSite
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeIndustrialSite_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:IndustrialSite
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeIndustrialSite
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:IndustrialSite
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimePrisons
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:Prisons
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimePrisons
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:Prisons
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimePrisons
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:Prisons
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimePrisons
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:Prisons
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimePrisons
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:Prisons
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimePrisons
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:Prisons
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimePrisons_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:Prisons
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimePrisons
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:Prisons
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeBodyOfWaterOrBeach
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:BodyOfWater__Beach
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeBodyOfWaterOrBeach
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:BodyOfWater__Beach
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeBodyOfWaterOrBeach
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:BodyOfWater__Beach
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeBodyOfWaterOrBeach
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:BodyOfWater__Beach
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeBodyOfWaterOrBeach
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:BodyOfWater__Beach
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeBodyOfWaterOrBeach
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:BodyOfWater__Beach
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeBodyOfWaterOrBeach_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:BodyOfWater__Beach
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeBodyOfWaterOrBeach
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:BodyOfWater__Beach
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeLiquorStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:LiquorStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeLiquorStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:LiquorStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeLiquorStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:LiquorStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeLiquorStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:LiquorStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeLiquorStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:LiquorStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeLiquorStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:LiquorStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeLiquorStore_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:LiquorStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeLiquorStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:LiquorStore
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeMilitaryInstallation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:MilitaryInstallation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeMilitaryInstallation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:MilitaryInstallation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeMilitaryInstallation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:MilitaryInstallation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeMilitaryInstallation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:MilitaryInstallation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeMilitaryInstallation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:MilitaryInstallation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeMilitaryInstallation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:MilitaryInstallation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeMilitaryInstallation_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:MilitaryInstallation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeMilitaryInstallation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:MilitaryInstallation
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeParkOrPlayground
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:Park__Playground
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeParkOrPlayground
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:Park__Playground
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeParkOrPlayground
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:Park__Playground
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeParkOrPlayground
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:Park__Playground
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeParkOrPlayground
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:Park__Playground
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeParkOrPlayground
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:Park__Playground
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeParkOrPlayground_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:Park__Playground
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeParkOrPlayground
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:Park__Playground
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeParkingFacility
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:ParkingFacility
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeParkingFacility
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:ParkingFacility
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeParkingFacility
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:ParkingFacility
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeParkingFacility
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:ParkingFacility
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeParkingFacility
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:ParkingFacility
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeParkingFacility
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:ParkingFacility
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeParkingFacility_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:ParkingFacility
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeParkingFacility
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:ParkingFacility
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeSelfStorage
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:SelfStorage
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeSelfStorage
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:SelfStorage
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeSelfStorage
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:SelfStorage
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeSelfStorage
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:SelfStorage
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeSelfStorage
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:SelfStorage
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeSelfStorage
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:SelfStorage
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeSelfStorage_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:SelfStorage
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeSelfStorage
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:SelfStorage
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeResidence
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:Residence
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeResidence
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:Residence
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeResidence
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:Residence
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeResidence
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:Residence
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeResidence
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:Residence
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeResidence
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:Residence
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeResidence_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:Residence
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeResidence
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:Residence
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeRestArea
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:RestArea
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeRestArea
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:RestArea
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeRestArea
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:RestArea
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeRestArea
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:RestArea
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeRestArea
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:RestArea
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeRestArea
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:RestArea
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeRestArea_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:RestArea
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeRestArea
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:RestArea
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeRestaurant
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:Restaurant
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeRestaurant
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:Restaurant
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeRestaurant
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:Restaurant
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeRestaurant
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:Restaurant
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeRestaurant
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:Restaurant
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeRestaurant
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:Restaurant
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeRestaurant_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:Restaurant
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeRestaurant
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:Restaurant
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeSchoolOrCollegeOrUniversity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:School__CollegeOrUniversity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeSchoolOrCollegeOrUniversity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:School__CollegeOrUniversity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeSchoolOrCollegeOrUniversity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:School__CollegeOrUniversity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeSchoolOrCollegeOrUniversity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:School__CollegeOrUniversity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeSchoolOrCollegeOrUniversity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:School__CollegeOrUniversity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeSchoolOrCollegeOrUniversity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:School__CollegeOrUniversity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeSchoolOrCollegeOrUniversity_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:School__CollegeOrUniversity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeSchoolOrCollegeOrUniversity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:School__CollegeOrUniversity
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeCollegeOrUniversity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:CollegeOrUniversity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeCollegeOrUniversity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:CollegeOrUniversity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeCollegeOrUniversity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:CollegeOrUniversity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeCollegeOrUniversity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:CollegeOrUniversity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeCollegeOrUniversity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:CollegeOrUniversity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeCollegeOrUniversity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:CollegeOrUniversity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeCollegeOrUniversity_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:CollegeOrUniversity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeCollegeOrUniversity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:CollegeOrUniversity
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeElementarySchoolOrHighSchool
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:ElementarySchool__HighSchool
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeElementarySchoolOrHighSchool
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:ElementarySchool__HighSchool
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeElementarySchoolOrHighSchool
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:ElementarySchool__HighSchool
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeElementarySchoolOrHighSchool
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:ElementarySchool__HighSchool
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeElementarySchoolOrHighSchool
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:ElementarySchool__HighSchool
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeElementarySchoolOrHighSchool
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:ElementarySchool__HighSchool
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeElementarySchoolOrHighSchool_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:ElementarySchool__HighSchool
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeElementarySchoolOrHighSchool
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:ElementarySchool__HighSchool
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeGasStation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:GasStation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeGasStation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:GasStation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeGasStation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:GasStation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeGasStation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:GasStation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeGasStation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:GasStation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeGasStation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:GasStation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeGasStation_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:GasStation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeGasStation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:GasStation
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeMissionOrHomelessShelter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:MissionOrHomelessShelter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeMissionOrHomelessShelter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:MissionOrHomelessShelter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeMissionOrHomelessShelter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:MissionOrHomelessShelter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeMissionOrHomelessShelter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:MissionOrHomelessShelter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeMissionOrHomelessShelter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:MissionOrHomelessShelter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeMissionOrHomelessShelter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:MissionOrHomelessShelter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeMissionOrHomelessShelter_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:MissionOrHomelessShelter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeMissionOrHomelessShelter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:MissionOrHomelessShelter
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeShoppingCenter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:ShoppingCenter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeShoppingCenter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:ShoppingCenter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeShoppingCenter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:ShoppingCenter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeShoppingCenter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:ShoppingCenter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeShoppingCenter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:ShoppingCenter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeShoppingCenter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:ShoppingCenter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeShoppingCenter_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:ShoppingCenter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeShoppingCenter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:ShoppingCenter
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeSpecialtyStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:SpecialtyStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeSpecialtyStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:SpecialtyStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeSpecialtyStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:SpecialtyStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeSpecialtyStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:SpecialtyStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeSpecialtyStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:SpecialtyStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeSpecialtyStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:SpecialtyStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeSpecialtyStore_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:SpecialtyStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeSpecialtyStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:SpecialtyStore
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeTribalLands
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:TribalLands
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeTribalLands
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:TribalLands
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeTribalLands
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:TribalLands
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeTribalLands
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:TribalLands
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeTribalLands
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:TribalLands
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeTribalLands
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:TribalLands
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeTribalLands_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:TribalLands
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeTribalLands
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:TribalLands
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeUnclassifiedLocation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:UCR_UnclassifiedLocation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeUnclassifiedLocation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:UCR_UnclassifiedLocation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeUnclassifiedLocation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:UCR_UnclassifiedLocation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeUnclassifiedLocation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:UCR_UnclassifiedLocation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeUnclassifiedLocation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:UCR_UnclassifiedLocation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeUnclassifiedLocation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:UCR_UnclassifiedLocation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeUnclassifiedLocation_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:UCR_UnclassifiedLocation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeUnclassifiedLocation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:UCR_UnclassifiedLocation
+
+Node: dcid:Count_HateCrimeIncidents_LocationOfCrimeATMSeparateFromBank
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+locationOfCrime: dcs:ATMSeparateFromBank
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRaceOrEthnicity_LocationOfCrimeATMSeparateFromBank
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:RaceOrEthnicity
+locationOfCrime: dcs:ATMSeparateFromBank
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeATMSeparateFromBank
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:religion
+locationOfCrime: dcs:ATMSeparateFromBank
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeATMSeparateFromBank
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:sexualOrientation
+locationOfCrime: dcs:ATMSeparateFromBank
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeATMSeparateFromBank
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:disabilityStatus
+locationOfCrime: dcs:ATMSeparateFromBank
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeATMSeparateFromBank
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+locationOfCrime: dcs:ATMSeparateFromBank
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeATMSeparateFromBank_TargetedGenderTransgenderOrGenderNonConforming
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:gender
+targetedGender: dcs:TransgenderOrGenderNonConforming
+locationOfCrime: dcs:ATMSeparateFromBank
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeATMSeparateFromBank
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:MultipleBias
+locationOfCrime: dcs:ATMSeparateFromBank
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeAbandonedOrCondemnedStructure
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:AbandonedOrCondemnedStructure
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeAbandonedOrCondemnedStructure
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:AbandonedOrCondemnedStructure
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeAirportOrBusStationOrTrainStation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:Airport__BusStation__TrainStation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeAirportOrBusStationOrTrainStation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:Airport__BusStation__TrainStation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeAmusementPark
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:AmusementPark
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeAmusementPark
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:AmusementPark
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeStadiumOrArena
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:StadiumOrArena
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeStadiumOrArena
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:StadiumOrArena
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeAutoDealer
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:AutoDealer
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeAutoDealer
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:AutoDealer
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeBankOrSavingsAndLoan
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:BankOrSavingsAndLoan
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeBankOrSavingsAndLoan
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:BankOrSavingsAndLoan
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeBarOrPubOrNightClub
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:BarOrPub__NightClub
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeBarOrPubOrNightClub
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:BarOrPub__NightClub
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeCampground
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:Campground
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeCampground
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:Campground
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimePlaceOfWorship
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:PlaceOfWorship
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimePlaceOfWorship
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:PlaceOfWorship
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeCommercialOrOfficeBuilding
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:CommercialOrOfficeBuilding
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeCommercialOrOfficeBuilding
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:CommercialOrOfficeBuilding
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeCommunityCenter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:CommunityCenter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeCommunityCenter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:CommunityCenter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeConstructionSite
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:ConstructionSite
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeConstructionSite
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:ConstructionSite
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeConvenienceStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:ConvenienceStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeConvenienceStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:ConvenienceStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeChildCare
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:ChildCare
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeChildCare
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:ChildCare
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeDepartmentStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:DepartmentStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeDepartmentStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:DepartmentStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeDockOrWharfOrFreightOrModalTerminal
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:DockOrWharfOrFreightOrModalTerminal
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeDockOrWharfOrFreightOrModalTerminal
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:DockOrWharfOrFreightOrModalTerminal
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeMedicalBusiness
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:MedicalBusiness
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeMedicalBusiness
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:MedicalBusiness
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeFarmFacility
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:FarmFacility
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeFarmFacility
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:FarmFacility
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeFieldOrWoods
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:FieldOrWoods
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeFieldOrWoods
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:FieldOrWoods
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeGovernmentOrPublicBuilding
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:GovernmentOrPublicBuilding
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeGovernmentOrPublicBuilding
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:GovernmentOrPublicBuilding
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeGroceryStoreOrSupermarket
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:GroceryStore__Supermarket
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeGroceryStoreOrSupermarket
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:GroceryStore__Supermarket
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeHighwayOrRoadOrAlleyOrStreetOrSidewalk
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:HighwayOrRoadOrAlleyOrStreetOrSidewalk
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeHighwayOrRoadOrAlleyOrStreetOrSidewalk
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:HighwayOrRoadOrAlleyOrStreetOrSidewalk
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeLodgingBusiness
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:LodgingBusiness
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeLodgingBusiness
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:LodgingBusiness
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeIndustrialSite
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:IndustrialSite
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeIndustrialSite
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:IndustrialSite
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimePrisons
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:Prisons
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimePrisons
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:Prisons
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeBodyOfWaterOrBeach
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:BodyOfWater__Beach
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeBodyOfWaterOrBeach
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:BodyOfWater__Beach
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeLiquorStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:LiquorStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeLiquorStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:LiquorStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeParkOrPlayground
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:Park__Playground
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeParkOrPlayground
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:Park__Playground
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeParkingFacility
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:ParkingFacility
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeParkingFacility
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:ParkingFacility
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeSelfStorage
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:SelfStorage
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeSelfStorage
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:SelfStorage
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeResidence
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:Residence
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeResidence
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:Residence
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeRestArea
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:RestArea
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeRestArea
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:RestArea
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeRestaurant
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:Restaurant
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeRestaurant
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:Restaurant
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeSchoolOrCollegeOrUniversity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:School__CollegeOrUniversity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeSchoolOrCollegeOrUniversity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:School__CollegeOrUniversity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeCollegeOrUniversity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:CollegeOrUniversity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeCollegeOrUniversity
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:CollegeOrUniversity
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeElementarySchoolOrHighSchool
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:ElementarySchool__HighSchool
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeElementarySchoolOrHighSchool
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:ElementarySchool__HighSchool
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeGasStation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:GasStation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeGasStation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:GasStation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeMissionOrHomelessShelter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:MissionOrHomelessShelter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeMissionOrHomelessShelter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:MissionOrHomelessShelter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeShoppingCenter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:ShoppingCenter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeShoppingCenter
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:ShoppingCenter
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeSpecialtyStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:SpecialtyStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeSpecialtyStore
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:SpecialtyStore
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeUnclassifiedLocation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:UCR_UnclassifiedLocation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeUnclassifiedLocation
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:UCR_UnclassifiedLocation
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeGamblingFacilityOrCasinoOrRaceTrack
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:GamblingFacilityOrCasinoOrRaceTrack
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeGamblingFacilityOrCasinoOrRaceTrack
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:GamblingFacilityOrCasinoOrRaceTrack
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeTribalLands
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:TribalLands
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeTribalLands
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:TribalLands
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeATMSeparateFromBank
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:race
+locationOfCrime: dcs:ATMSeparateFromBank
+
+Node: dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeATMSeparateFromBank
+populationType: dcs:HateCrimeIncidents
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+biasMotivation: dcs:ethnicity
+locationOfCrime: dcs:ATMSeparateFromBank
+

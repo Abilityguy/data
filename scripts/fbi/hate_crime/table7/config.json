@@ -1,29 +1,152 @@
 {
     "populationType": {
-        "Incidents": {
-            "populationType": "HateCrimeIncidents",
-            "statType": "measuredValue",
-            "measuredProperty": "count",
-            "typeOf": "StatisticalVariable"
-        },
-        "Offenses": {
-            "populationType": "HateCrimeIncidents",
-            "measurementQualifier": "Offense",
-            "statType": "measuredValue",
-            "measuredProperty": "count",
-            "typeOf": "StatisticalVariable"
-        },
-        "Victims": {
+        "total victims": {
             "populationType": "HateCrimeIncidents",
             "measurementQualifier": "Victim",
             "statType": "measuredValue",
             "measuredProperty": "count",
             "typeOf": "StatisticalVariable"
         },
-        "KnownOffender": {
+        "adult victims": {
             "populationType": "HateCrimeIncidents",
-            "measurementQualifier": "Offender",
-            "offenderType": "KnownOffender",
+            "measurementQualifier": "Victim",
+            "victimAge": "[18 - Years]",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "juvenile victims": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Victim",
+            "victimAge": "[- 17 Years]",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "murder": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Victim",
+            "crimeType": "MurderAndNonNegligentManslaughter",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "rape": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Victim",
+            "crimeType": "ForcibleRape",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "forcible rape": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Victim",
+            "crimeType": "ForcibleRape",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "aggravated assault": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Victim",
+            "crimeType": "AggravatedAssault",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "simple assault": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Victim",
+            "crimeType": "SimpleAssault",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "intimidation": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Victim",
+            "crimeType": "Intimidation",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "other crimes against person": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Victim",
+            "crimeType": "UCR_OtherCrimesAgainstPerson",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "robbery": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Victim",
+            "crimeType": "Robbery",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "burglary": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Victim",
+            "crimeType": "Burglary",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "larceny theft": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Victim",
+            "crimeType": "LarcenyTheft",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "motor vehicle theft": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Victim",
+            "crimeType": "MotorVehicleTheft",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "arson": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Victim",
+            "crimeType": "Arson",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "vandalism": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Victim",
+            "crimeType": "DestructionOrDamageOrVandalismOfProperty",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "other crimes against property": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Victim",
+            "crimeType": "UCR_OtherCrimesAgainstProperty",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "crimes against society": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Victim",
+            "crimeType": "CrimeAgainstSociety",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        },
+        "trafficking": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Victim",
+            "crimeType": "HumanTrafficking_CommercialSexActs",
             "statType": "measuredValue",
             "measuredProperty": "count",
             "typeOf": "StatisticalVariable"
@@ -48,7 +171,7 @@
         },
         "Anti-White": {
             "biasMotivation": "race",
-            "targetedRace": "WhiteAlone"
+            "targetedRace": "White"
         },
         "Anti-Black or African American": {
             "biasMotivation": "race",

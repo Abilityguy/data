@@ -1,0 +1,153 @@
+Node: dcid:Offender_Count_HateCrimeIncidents_OffenderRaceKnownRace
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+offenderRace: dcs:KnownRace
+
+Node: dcid:Offender_Count_HateCrimeIncidents_OffenderRaceWhiteAlone
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+offenderRace: dcs:WhiteAlone
+
+Node: dcid:Offender_Count_HateCrimeIncidents_OffenderRaceBlackOrAfricanAmericanAlone
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+offenderRace: dcs:BlackOrAfricanAmericanAlone
+
+Node: dcid:Offender_Count_HateCrimeIncidents_OffenderRaceAmericanIndianOrAlaskaNativeAlone
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+offenderRace: dcs:AmericanIndianOrAlaskaNativeAlone
+
+Node: dcid:Offender_Count_HateCrimeIncidents_OffenderRaceAsianAlone
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+offenderRace: dcs:AsianAlone
+
+Node: dcid:Offender_Count_HateCrimeIncidents_OffenderRaceNativeHawaiianOrOtherPacificIslanderAlone
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+offenderRace: dcs:NativeHawaiianOrOtherPacificIslanderAlone
+
+Node: dcid:Offender_Count_HateCrimeIncidents_OffenderRaceTwoOrMoreRaces
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+offenderRace: dcs:TwoOrMoreRaces
+
+Node: dcid:Offender_Count_HateCrimeIncidents_OffenderRaceUnknownRace
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+offenderRace: dcs:UnknownRace
+
+Node: dcid:Offender_Count_HateCrimeIncidents_OffenderEthnicityKnownEthnicity
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+offenderEthnicity: dcs:KnownEthnicity
+
+Node: dcid:Offender_Count_HateCrimeIncidents_OffenderEthnicityHispanicOrLatino
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+offenderEthnicity: dcs:HispanicOrLatino
+
+Node: dcid:Offender_Count_HateCrimeIncidents_OffenderEthnicityNotHispanicOrLatino
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+offenderEthnicity: dcs:NotHispanicOrLatino
+
+Node: dcid:Offender_Count_HateCrimeIncidents_OffenderEthnicityMultipleEthnicity
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+offenderEthnicity: dcs:UCR_MultipleEthnicity
+
+Node: dcid:Offender_Count_HateCrimeIncidents_OffenderEthnicityUnknownEthnicity
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+offenderEthnicity: dcs:UCR_UnknownEthnicity
+
+Node: dcid:Offender_Count_HateCrimeIncidents_KnownAge
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+offenderAge: dcs:KnownAge
+
+Node: dcid:Offender_Count_HateCrimeIncidents_18OrMoreYears
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+offenderAge: dcs:[18 - Years]
+
+Node: dcid:Offender_Count_HateCrimeIncidents_17OrLessYears
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+offenderAge: dcs:[- 17 Years]
+
+Node: dcid:Offender_Count_HateCrimeIncidents_OffenderRaceAsianOrPacificIslander
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offender
+offenderType: dcs:KnownOffender
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+offenderRace: dcs:AsianOrPacificIslander
+

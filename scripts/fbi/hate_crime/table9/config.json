@@ -1,0 +1,100 @@
+{
+    "populationType": {
+        "total": {
+            "populationType": "HateCrimeIncidents",
+            "measurementQualifier": "Offender",
+            "offenderType": "KnownOffender",
+            "statType": "measuredValue",
+            "measuredProperty": "count",
+            "typeOf": "StatisticalVariable"
+        }
+    },
+    "pvs": {
+        "Race": {
+            "offenderRace": "KnownRace"
+        },
+        "Ethnicity3":{
+            "offenderEthnicity": "KnownEthnicity"
+        },
+        "Age3": {
+            "offenderAge": "KnownAge"
+        },
+        "Total": {
+            "offenderRace": "KnownRace"
+        },
+        "White": {
+            "offenderRace": "WhiteAlone"
+        },
+        "Black or African American": {
+            "offenderRace": "BlackOrAfricanAmericanAlone"
+        },
+        "Black": {
+            "offenderRace": "BlackOrAfricanAmericanAlone"
+        },
+        "Unknown Race": {
+            "offenderRace": "UnknownRace"
+        },
+        "Group of Multiple Races2": {
+            "offenderRace": "TwoOrMoreRaces"
+        },
+        "Multiple Races, Group2": {
+            "offenderRace": "TwoOrMoreRaces"
+        },
+        "Asian": {
+            "offenderRace": "AsianAlone"
+        },
+        "American Indian or Alaska Native": {
+            "offenderRace": "AmericanIndianOrAlaskaNativeAlone"
+        },
+        "American Indian/Alaskan Native": {
+            "offenderRace": "AmericanIndianOrAlaskaNativeAlone"
+        },
+        "Native Hawaiian or Other Pacific Islander": {
+            "offenderRace": "NativeHawaiianOrOtherPacificIslanderAlone"
+        },
+        "Asian/Pacific Islander": {
+            "offenderRace": "AsianOrPacificIslander"
+        },
+        "Unknown Ethnicity": {
+            "offenderEthnicity": "UCR_UnknownEthnicity"
+        },
+        "Not Hispanic or Latino": {
+            "offenderEthnicity": "NotHispanicOrLatino"
+        },
+        "Hispanic or Latino": {
+            "offenderEthnicity": "HispanicOrLatino"
+        },
+        "Group of Multiple Ethnicities4": {
+            "offenderEthnicity": "UCR_MultipleEthnicity"
+        },
+        "Total known offenders 18 and over": {
+            "offenderAge": "[18 - Years]"
+        },
+        "Total known offenders under 18": {
+            "offenderAge": "[- 17 Years]"
+        }
+    },
+    "dpv": [
+        {
+            "cprop": "offenderRace",
+            "dpv": {
+                "prop": "offenderType",
+                "val": "KnownOffender"
+            }
+        },
+        {
+            "cprop": "offenderEthnicity",
+            "dpv": {
+                "prop": "offenderType",
+                "val": "KnownOffender"
+            }
+        },
+        {
+            "cprop": "offenderAge",
+            "dpv": {
+                "prop": "offenderType",
+                "val": "KnownOffender"
+            }
+        }
+    ]
+}

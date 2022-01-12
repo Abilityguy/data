@@ -1,0 +1,675 @@
+Node: dcid:Offense_Count_HateCrimeIncidents
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offense_Count_HateCrimeIncidents_VictimTypePerson
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Person
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offense_Count_HateCrimeIncidents_VictimTypeBusiness
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Business
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offense_Count_HateCrimeIncidents_VictimTypeGovernment
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Government
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offense_Count_HateCrimeIncidents_VictimTypeReligiousOrganization
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:ReligiousOrganization
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offense_Count_HateCrimeIncidents_VictimTypeSociety
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Society
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offense_Count_HateCrimeIncidents_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstPerson
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:CrimeAgainstPerson
+
+Node: dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstPerson_VictimTypePerson
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Person
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:CrimeAgainstPerson
+
+Node: dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstPerson_VictimTypeBusiness
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Business
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:CrimeAgainstPerson
+
+Node: dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstPerson_VictimTypeGovernment
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Government
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:CrimeAgainstPerson
+
+Node: dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstPerson_VictimTypeReligiousOrganization
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:ReligiousOrganization
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:CrimeAgainstPerson
+
+Node: dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstPerson_VictimTypeSociety
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Society
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:CrimeAgainstPerson
+
+Node: dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstPerson_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:CrimeAgainstPerson
+
+Node: dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstProperty
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:CrimeAgainstProperty
+
+Node: dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstProperty_VictimTypePerson
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Person
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:CrimeAgainstProperty
+
+Node: dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstProperty_VictimTypeBusiness
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Business
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:CrimeAgainstProperty
+
+Node: dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstProperty_VictimTypeGovernment
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Government
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:CrimeAgainstProperty
+
+Node: dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstProperty_VictimTypeReligiousOrganization
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:ReligiousOrganization
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:CrimeAgainstProperty
+
+Node: dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstProperty_VictimTypeSociety
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Society
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:CrimeAgainstProperty
+
+Node: dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstProperty_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:CrimeAgainstProperty
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Robbery
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:Robbery
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Robbery_VictimTypePerson
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Person
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:Robbery
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Robbery_VictimTypeBusiness
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Business
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:Robbery
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Robbery_VictimTypeGovernment
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Government
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:Robbery
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Robbery_VictimTypeReligiousOrganization
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:ReligiousOrganization
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:Robbery
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Robbery_VictimTypeSociety
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Society
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:Robbery
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Robbery_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:Robbery
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Burglary
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:Burglary
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Burglary_VictimTypePerson
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Person
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:Burglary
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Burglary_VictimTypeBusiness
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Business
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:Burglary
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Burglary_VictimTypeGovernment
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Government
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:Burglary
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Burglary_VictimTypeReligiousOrganization
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:ReligiousOrganization
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:Burglary
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Burglary_VictimTypeSociety
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Society
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:Burglary
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Burglary_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:Burglary
+
+Node: dcid:Offense_Count_HateCrimeIncidents_LarcenyTheft
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:LarcenyTheft
+
+Node: dcid:Offense_Count_HateCrimeIncidents_LarcenyTheft_VictimTypePerson
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Person
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:LarcenyTheft
+
+Node: dcid:Offense_Count_HateCrimeIncidents_LarcenyTheft_VictimTypeBusiness
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Business
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:LarcenyTheft
+
+Node: dcid:Offense_Count_HateCrimeIncidents_LarcenyTheft_VictimTypeGovernment
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Government
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:LarcenyTheft
+
+Node: dcid:Offense_Count_HateCrimeIncidents_LarcenyTheft_VictimTypeReligiousOrganization
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:ReligiousOrganization
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:LarcenyTheft
+
+Node: dcid:Offense_Count_HateCrimeIncidents_LarcenyTheft_VictimTypeSociety
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Society
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:LarcenyTheft
+
+Node: dcid:Offense_Count_HateCrimeIncidents_LarcenyTheft_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:LarcenyTheft
+
+Node: dcid:Offense_Count_HateCrimeIncidents_MotorVehicleTheft
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:MotorVehicleTheft
+
+Node: dcid:Offense_Count_HateCrimeIncidents_MotorVehicleTheft_VictimTypePerson
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Person
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:MotorVehicleTheft
+
+Node: dcid:Offense_Count_HateCrimeIncidents_MotorVehicleTheft_VictimTypeBusiness
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Business
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:MotorVehicleTheft
+
+Node: dcid:Offense_Count_HateCrimeIncidents_MotorVehicleTheft_VictimTypeGovernment
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Government
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:MotorVehicleTheft
+
+Node: dcid:Offense_Count_HateCrimeIncidents_MotorVehicleTheft_VictimTypeReligiousOrganization
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:ReligiousOrganization
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:MotorVehicleTheft
+
+Node: dcid:Offense_Count_HateCrimeIncidents_MotorVehicleTheft_VictimTypeSociety
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Society
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:MotorVehicleTheft
+
+Node: dcid:Offense_Count_HateCrimeIncidents_MotorVehicleTheft_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:MotorVehicleTheft
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Arson
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:Arson
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Arson_VictimTypePerson
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Person
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:Arson
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Arson_VictimTypeBusiness
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Business
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:Arson
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Arson_VictimTypeGovernment
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Government
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:Arson
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Arson_VictimTypeReligiousOrganization
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:ReligiousOrganization
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:Arson
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Arson_VictimTypeSociety
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Society
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:Arson
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Arson_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:Arson
+
+Node: dcid:Offense_Count_HateCrimeIncidents_DestructionOrDamageOrVandalismOfProperty
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:DestructionOrDamageOrVandalismOfProperty
+
+Node: dcid:Offense_Count_HateCrimeIncidents_DestructionOrDamageOrVandalismOfProperty_VictimTypePerson
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Person
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:DestructionOrDamageOrVandalismOfProperty
+
+Node: dcid:Offense_Count_HateCrimeIncidents_DestructionOrDamageOrVandalismOfProperty_VictimTypeBusiness
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Business
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:DestructionOrDamageOrVandalismOfProperty
+
+Node: dcid:Offense_Count_HateCrimeIncidents_DestructionOrDamageOrVandalismOfProperty_VictimTypeGovernment
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Government
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:DestructionOrDamageOrVandalismOfProperty
+
+Node: dcid:Offense_Count_HateCrimeIncidents_DestructionOrDamageOrVandalismOfProperty_VictimTypeReligiousOrganization
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:ReligiousOrganization
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:DestructionOrDamageOrVandalismOfProperty
+
+Node: dcid:Offense_Count_HateCrimeIncidents_DestructionOrDamageOrVandalismOfProperty_VictimTypeSociety
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Society
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:DestructionOrDamageOrVandalismOfProperty
+
+Node: dcid:Offense_Count_HateCrimeIncidents_DestructionOrDamageOrVandalismOfProperty_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:DestructionOrDamageOrVandalismOfProperty
+
+Node: dcid:Offense_Count_HateCrimeIncidents_OtherCrimesAgainstProperty
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:UCR_OtherCrimesAgainstProperty
+
+Node: dcid:Offense_Count_HateCrimeIncidents_OtherCrimesAgainstProperty_VictimTypePerson
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Person
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:UCR_OtherCrimesAgainstProperty
+
+Node: dcid:Offense_Count_HateCrimeIncidents_OtherCrimesAgainstProperty_VictimTypeBusiness
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Business
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:UCR_OtherCrimesAgainstProperty
+
+Node: dcid:Offense_Count_HateCrimeIncidents_OtherCrimesAgainstProperty_VictimTypeGovernment
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Government
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:UCR_OtherCrimesAgainstProperty
+
+Node: dcid:Offense_Count_HateCrimeIncidents_OtherCrimesAgainstProperty_VictimTypeReligiousOrganization
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:ReligiousOrganization
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:UCR_OtherCrimesAgainstProperty
+
+Node: dcid:Offense_Count_HateCrimeIncidents_OtherCrimesAgainstProperty_VictimTypeSociety
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Society
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:UCR_OtherCrimesAgainstProperty
+
+Node: dcid:Offense_Count_HateCrimeIncidents_OtherCrimesAgainstProperty_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:UCR_OtherCrimesAgainstProperty
+
+Node: dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstSociety
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:CrimeAgainstSociety
+
+Node: dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstSociety_VictimTypePerson
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Person
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:CrimeAgainstSociety
+
+Node: dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstSociety_VictimTypeBusiness
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Business
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:CrimeAgainstSociety
+
+Node: dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstSociety_VictimTypeGovernment
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Government
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:CrimeAgainstSociety
+
+Node: dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstSociety_VictimTypeReligiousOrganization
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:ReligiousOrganization
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:CrimeAgainstSociety
+
+Node: dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstSociety_VictimTypeSociety
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:Society
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:CrimeAgainstSociety
+
+Node: dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstSociety_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+victimType: dcs:UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+crimeType: dcs:CrimeAgainstSociety
+

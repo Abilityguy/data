@@ -1,0 +1,1106 @@
+{
+  "levelSummary": {
+    "LEVEL_INFO": {
+      "counters": {
+        "NumRowSuccesses": "1132",
+        "NumPVSuccesses": "7924",
+        "Existence_NumChecks": "118913",
+        "NumNodeSuccesses": "1132",
+        "Existence_NumDcCalls": "3"
+      }
+    },
+    "LEVEL_WARNING": {
+      "counters": {
+        "StatsCheck_MaxPercentFluctuationGreaterThan100": "8",
+        "Existence_MissingReference_locationOfCrime": "78",
+        "StatsCheck_3_Sigma": "7",
+        "Existence_MissingReference_victimType": "11",
+        "StatsCheck_MaxPercentFluctuationGreaterThan500": "15",
+        "StatsCheck_Data_Holes": "7"
+      }
+    }
+  },
+  "entries": [{
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "20285"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'Airport__BusStation__TrainStation', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_LocationOfCrimeAirportOrBusStationOrTrainStation'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "20612"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'Airport__BusStation__TrainStation', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationSingleBias_LocationOfCrimeAirportOrBusStationOrTrainStation'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "21044"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'Airport__BusStation__TrainStation', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeAirportOrBusStationOrTrainStation'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "21284"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'Airport__BusStation__TrainStation', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeAirportOrBusStationOrTrainStation'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "21404"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'Airport__BusStation__TrainStation', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeAirportOrBusStationOrTrainStation'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "21644"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'Airport__BusStation__TrainStation', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeAirportOrBusStationOrTrainStation'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "21852"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'Airport__BusStation__TrainStation', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeAirportOrBusStationOrTrainStation'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "22148"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'Airport__BusStation__TrainStation', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeAirportOrBusStationOrTrainStation'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "22763"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'Airport__BusStation__TrainStation', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_LocationOfCrimeAirportOrBusStationOrTrainStation_TargetedGenderTransgenderOrGenderNonConforming'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "23422"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'Airport__BusStation__TrainStation', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeAirportOrBusStationOrTrainStation'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "20292"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'BarOrPub__NightClub', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_LocationOfCrimeBarOrPubOrNightClub'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "20620"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'BarOrPub__NightClub', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationSingleBias_LocationOfCrimeBarOrPubOrNightClub'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "20828"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'BarOrPub__NightClub', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeBarOrPubOrNightClub'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "21292"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'BarOrPub__NightClub', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeBarOrPubOrNightClub'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "21412"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'BarOrPub__NightClub', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeBarOrPubOrNightClub'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "21420"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'BarOrPub__NightClub', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeBarOrPubOrNightClub'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "21772"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'BarOrPub__NightClub', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeBarOrPubOrNightClub'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "22212"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'BarOrPub__NightClub', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeBarOrPubOrNightClub'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "22772"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'BarOrPub__NightClub', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_LocationOfCrimeBarOrPubOrNightClub_TargetedGenderTransgenderOrGenderNonConforming'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "22816"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'BarOrPub__NightClub', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationGender_LocationOfCrimeBarOrPubOrNightClub'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "20376"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'BodyOfWater__Beach', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_LocationOfCrimeBodyOfWaterOrBeach'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "20716"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'BodyOfWater__Beach', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationSingleBias_LocationOfCrimeBodyOfWaterOrBeach'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "21140"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'BodyOfWater__Beach', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationMultipleBias_LocationOfCrimeBodyOfWaterOrBeach'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "21548"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'BodyOfWater__Beach', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationRace_LocationOfCrimeBodyOfWaterOrBeach'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "21828"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'BodyOfWater__Beach', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationEthnicity_LocationOfCrimeBodyOfWaterOrBeach'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "21876"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'BodyOfWater__Beach', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationSexualOrientation_LocationOfCrimeBodyOfWaterOrBeach'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "21972"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'BodyOfWater__Beach', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationReligion_LocationOfCrimeBodyOfWaterOrBeach'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "22220"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'BodyOfWater__Beach', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationDisabilityStatus_LocationOfCrimeBodyOfWaterOrBeach'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "20439"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'ElementarySchool__HighSchool', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_LocationOfCrimeElementarySchoolOrHighSchool'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "20940"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'ElementarySchool__HighSchool', property: 'locationOfCrime', node: 'dcid:Count_HateCrimeIncidents_BiasMotivationSingleBias_LocationOfCrimeElementarySchoolOrHighSchool'",
+    "counterKey": "Existence_MissingReference_locationOfCrime"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "66290"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType', property: 'victimType', node: 'dcid:Offense_Count_HateCrimeIncidents_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType'",
+    "counterKey": "Existence_MissingReference_victimType"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "66298"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType', property: 'victimType', node: 'dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstPerson_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType'",
+    "counterKey": "Existence_MissingReference_victimType"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "66307"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType', property: 'victimType', node: 'dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstProperty_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType'",
+    "counterKey": "Existence_MissingReference_victimType"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "66316"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType', property: 'victimType', node: 'dcid:Offense_Count_HateCrimeIncidents_Robbery_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType'",
+    "counterKey": "Existence_MissingReference_victimType"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "66325"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType', property: 'victimType', node: 'dcid:Offense_Count_HateCrimeIncidents_Burglary_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType'",
+    "counterKey": "Existence_MissingReference_victimType"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "66334"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType', property: 'victimType', node: 'dcid:Offense_Count_HateCrimeIncidents_LarcenyTheft_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType'",
+    "counterKey": "Existence_MissingReference_victimType"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "66343"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType', property: 'victimType', node: 'dcid:Offense_Count_HateCrimeIncidents_MotorVehicleTheft_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType'",
+    "counterKey": "Existence_MissingReference_victimType"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "66352"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType', property: 'victimType', node: 'dcid:Offense_Count_HateCrimeIncidents_Arson_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType'",
+    "counterKey": "Existence_MissingReference_victimType"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "66361"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType', property: 'victimType', node: 'dcid:Offense_Count_HateCrimeIncidents_DestructionOrDamageOrVandalismOfProperty_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType'",
+    "counterKey": "Existence_MissingReference_victimType"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "66370"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType', property: 'victimType', node: 'dcid:Offense_Count_HateCrimeIncidents_OtherCrimesAgainstProperty_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType'",
+    "counterKey": "Existence_MissingReference_victimType"
+  }, {
+    "level": "LEVEL_WARNING",
+    "location": {
+      "file": "fbi.mcf",
+      "lineNumber": "66379"
+    },
+    "userMessage": "Failed reference existence check :: value-ref: 'UCR_OtherVictimType__UCR_UnknownVictimType__MultipleVictimType', property: 'victimType', node: 'dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstSociety_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType'",
+    "counterKey": "Existence_MissingReference_victimType"
+  }],
+  "statsCheckSummary": [{
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_Arson_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan100",
+      "problemPoints": [{
+        "date": "2014",
+        "values": [{
+          "value": 1.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "447"
+          }]
+        }]
+      }, {
+        "date": "2015",
+        "values": [{
+          "value": 5.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "380"
+          }]
+        }]
+      }],
+      "percentDifference": 400.0
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_Burglary_VictimTypeGovernment",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2013",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "490"
+          }]
+        }]
+      }, {
+        "date": "2014",
+        "values": [{
+          "value": 2.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "423"
+          }]
+        }]
+      }],
+      "percentDifference": 2.0E8
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_OtherCrimesAgainstProperty_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2012",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "595"
+          }]
+        }]
+      }, {
+        "date": "2013",
+        "values": [{
+          "value": 3.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "528"
+          }]
+        }]
+      }],
+      "percentDifference": 3.0E8
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_VictimTypeReligiousOrganization",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_Data_Holes",
+      "additionalDetails": "Possible data hole found. Dates in this series: 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2018, 2019, 2020"
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_MotorVehicleTheft_VictimTypeGovernment",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "2008",
+        "values": [{
+          "value": 1.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "839"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2007",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "906"
+          }]
+        }]
+      }, {
+        "date": "2008",
+        "values": [{
+          "value": 1.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "839"
+          }]
+        }]
+      }],
+      "percentDifference": 1.0E8
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_Arson_VictimTypeReligiousOrganization",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "2019",
+        "values": [{
+          "value": 25.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "117"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan100",
+      "problemPoints": [{
+        "date": "2017",
+        "values": [{
+          "value": 4.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "244"
+          }]
+        }]
+      }, {
+        "date": "2018",
+        "values": [{
+          "value": 12.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "184"
+          }]
+        }]
+      }],
+      "percentDifference": 200.0
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_Robbery_VictimTypeBusiness",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "2006",
+        "values": [{
+          "value": 6.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "951"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2016",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "281"
+          }]
+        }]
+      }, {
+        "date": "2017",
+        "values": [{
+          "value": 3.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "214"
+          }]
+        }]
+      }],
+      "percentDifference": 3.0E8
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_Data_Holes",
+      "additionalDetails": "Possible data hole found. Dates in this series: 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2018, 2019, 2020"
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_Arson_VictimTypeBusiness",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2013",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "510"
+          }]
+        }]
+      }, {
+        "date": "2014",
+        "values": [{
+          "value": 3.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "443"
+          }]
+        }]
+      }],
+      "percentDifference": 3.0E8
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_MotorVehicleTheft",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan100",
+      "problemPoints": [{
+        "date": "2011",
+        "values": [{
+          "value": 6.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "635"
+          }]
+        }]
+      }, {
+        "date": "2012",
+        "values": [{
+          "value": 23.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "568"
+          }]
+        }]
+      }],
+      "percentDifference": 283.33
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_OtherCrimesAgainstProperty_VictimTypeBusiness",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan100",
+      "problemPoints": [{
+        "date": "2014",
+        "values": [{
+          "value": 5.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "457"
+          }]
+        }]
+      }, {
+        "date": "2015",
+        "values": [{
+          "value": 12.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "390"
+          }]
+        }]
+      }],
+      "percentDifference": 140.0
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_LarcenyTheft_VictimTypeReligiousOrganization",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2011",
+        "values": [{
+          "value": 1.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "632"
+          }]
+        }]
+      }, {
+        "date": "2012",
+        "values": [{
+          "value": 8.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "565"
+          }]
+        }]
+      }],
+      "percentDifference": 700.0
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_Burglary_VictimTypeReligiousOrganization",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan100",
+      "problemPoints": [{
+        "date": "2012",
+        "values": [{
+          "value": 4.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "558"
+          }]
+        }]
+      }, {
+        "date": "2013",
+        "values": [{
+          "value": 16.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "491"
+          }]
+        }]
+      }],
+      "percentDifference": 300.0
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_MotorVehicleTheft_VictimTypeBusiness",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2019",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "108"
+          }]
+        }]
+      }, {
+        "date": "2020",
+        "values": [{
+          "value": 3.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "41"
+          }]
+        }]
+      }],
+      "percentDifference": 3.0E8
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_Robbery_VictimTypeReligiousOrganization",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "2004",
+        "values": [{
+          "value": 1.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "1087"
+          }]
+        }]
+      }]
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_CrimeAgainstSociety_VictimTypeSociety",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2011",
+        "values": [{
+          "value": 20.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "664"
+          }]
+        }]
+      }, {
+        "date": "2012",
+        "values": [{
+          "value": 203.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "597"
+          }]
+        }]
+      }],
+      "percentDifference": 915.0
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_LarcenyTheft_VictimTypeOtherVictimTypeOrUnknownVictimTypeOrMultipleVictimType",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan100",
+      "problemPoints": [{
+        "date": "2005",
+        "values": [{
+          "value": 5.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "1036"
+          }]
+        }]
+      }, {
+        "date": "2006",
+        "values": [{
+          "value": 13.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "969"
+          }]
+        }]
+      }],
+      "percentDifference": 160.0
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_VictimTypeSociety",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2011",
+        "values": [{
+          "value": 20.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "603"
+          }]
+        }]
+      }, {
+        "date": "2012",
+        "values": [{
+          "value": 203.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "536"
+          }]
+        }]
+      }],
+      "percentDifference": 915.0
+    }, {
+      "counterKey": "StatsCheck_Data_Holes",
+      "additionalDetails": "Possible data hole found. Dates in this series: 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2018, 2019, 2020"
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_Arson_VictimTypeGovernment",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2019",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "116"
+          }]
+        }]
+      }, {
+        "date": "2020",
+        "values": [{
+          "value": 4.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "49"
+          }]
+        }]
+      }],
+      "percentDifference": 4.0E8
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_CrimeAgainstPerson_VictimTypePerson",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "2020",
+        "values": [{
+          "value": 7750.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "10"
+          }]
+        }]
+      }]
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_VictimTypeBusiness",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_Data_Holes",
+      "additionalDetails": "Possible data hole found. Dates in this series: 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2018, 2019, 2020"
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_LarcenyTheft_VictimTypeGovernment",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan100",
+      "problemPoints": [{
+        "date": "2018",
+        "values": [{
+          "value": 1.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "169"
+          }]
+        }]
+      }, {
+        "date": "2019",
+        "values": [{
+          "value": 5.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "102"
+          }]
+        }]
+      }],
+      "percentDifference": 400.0
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_VictimTypePerson",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_Data_Holes",
+      "additionalDetails": "Possible data hole found. Dates in this series: 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2018, 2019, 2020"
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_MotorVehicleTheft_VictimTypePerson",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan100",
+      "problemPoints": [{
+        "date": "2011",
+        "values": [{
+          "value": 6.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "636"
+          }]
+        }]
+      }, {
+        "date": "2012",
+        "values": [{
+          "value": 19.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "569"
+          }]
+        }]
+      }],
+      "percentDifference": 216.67
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_VictimTypeGovernment",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_Data_Holes",
+      "additionalDetails": "Possible data hole found. Dates in this series: 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2018, 2019, 2020"
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_CrimeAgainstPerson",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "2020",
+        "values": [{
+          "value": 7750.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "9"
+          }]
+        }]
+      }]
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_Data_Holes",
+      "additionalDetails": "Possible data hole found. Dates in this series: 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2018, 2019, 2020"
+    }]
+  }, {
+    "placeDcid": "country/USA",
+    "statVarDcid": "Offense_Count_HateCrimeIncidents_OtherCrimesAgainstProperty_VictimTypeReligiousOrganization",
+    "measurementMethod": "",
+    "observationPeriod": "",
+    "scalingFactor": "",
+    "unit": "",
+    "validationCounters": [{
+      "counterKey": "StatsCheck_3_Sigma",
+      "problemPoints": [{
+        "date": "2017",
+        "values": [{
+          "value": 1.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "258"
+          }]
+        }]
+      }]
+    }, {
+      "counterKey": "StatsCheck_MaxPercentFluctuationGreaterThan500",
+      "problemPoints": [{
+        "date": "2016",
+        "values": [{
+          "value": 0.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "325"
+          }]
+        }]
+      }, {
+        "date": "2017",
+        "values": [{
+          "value": 1.0,
+          "locations": [{
+            "file": "cleaned.csv",
+            "lineNumber": "258"
+          }]
+        }]
+      }],
+      "percentDifference": 1.0E8
+    }]
+  }],
+  "commandArgs": {
+    "existenceChecks": true,
+    "resolution": "RESOLUTION_MODE_LOCAL",
+    "numThreads": 1,
+    "statChecks": true
+  }
+}

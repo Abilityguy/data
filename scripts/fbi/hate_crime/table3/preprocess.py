@@ -11,7 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-"""A script to process FBI Hate Crime table 1 publications."""
+"""A script to process FBI Hate Crime table 5 publications."""
 import os
 import sys
 import tempfile
@@ -29,145 +29,165 @@ from statvar_dcid_generator import get_statvar_dcid
 YEAR_INDEX = 0
 
 # Columns in final cleaned CSV
-OUTPUT_COLUMNS = ['Year', 'StatVar', 'Quantity']
+OUTPUT_COLUMNS = ('Year', 'StatVar', 'Quantity')
+
+# Years with two definitions of rape
+YEARS_WITH_TWO_RAPE_COLUMNS = ('2013', '2014', '2015', '2016')
 
 # A config that maps the year to corresponding xls file with args to be used
 # with pandas.read_excel()
 YEARWISE_CONFIG = {
     '2020': {
         'type': 'xls',
-        'path': '../source_data/2020/table_1.xlsx',
+        'path': '../source_data/2020/table_3.xlsx',
         'args': {
-            'header': 4,
-            'skipfooter': 3
+            'header': 5,
+            'skipfooter': 3,
+            'usecols': list(range(0, 14))
         }
     },
     '2019': {
         'type': 'xls',
-        'path': '../source_data/2019/table_1.xls',
+        'path': '../source_data/2019/table_3.xls',
         'args': {
-            'header': 3,
-            'skipfooter': 3
+            'header': 5,
+            'skipfooter': 3,
+            'usecols': list(range(0, 14))
         }
     },
     '2018': {
         'type': 'xls',
-        'path': '../source_data/2018/table_1.xls',
+        'path': '../source_data/2018/table_3.xls',
         'args': {
-            'header': 3,
-            'skipfooter': 3
+            'header': 5,
+            'skipfooter': 3,
+            'usecols': list(range(0, 14))
         }
     },
     '2017': {
         'type': 'xls',
-        'path': '../source_data/2017/table_1.xls',
+        'path': '../source_data/2017/table_3.xls',
         'args': {
-            'header': 3,
-            'skipfooter': 3
+            'header': 5,
+            'skipfooter': 3,
+            'usecols': list(range(0, 14))
         }
     },
     '2016': {
         'type': 'xls',
-        'path': '../source_data/2016/table_1.xls',
+        'path': '../source_data/2016/table_3.xls',
         'args': {
-            'header': 3,
-            'skipfooter': 3
+            'header': 5,
+            'skipfooter': 4,
+            'usecols': list(range(0, 14))
         }
     },
     '2015': {
         'type': 'xls',
-        'path': '../source_data/2015/table_1.xls',
+        'path': '../source_data/2015/table_3.xls',
         'args': {
-            'header': 3,
-            'skipfooter': 3
+            'header': 5,
+            'skipfooter': 4,
+            'usecols': list(range(0, 14))
         }
     },
     '2014': {
         'type': 'xls',
-        'path': '../source_data/2014/table_1.xls',
+        'path': '../source_data/2014/table_3.xls',
         'args': {
-            'header': 3,
-            'skipfooter': 4
+            'header': 5,
+            'skipfooter': 4,
+            'usecols': list(range(0, 14))
         }
     },
     '2013': {
         'type': 'xls',
-        'path': '../source_data/2013/table_1.xls',
+        'path': '../source_data/2013/table_3.xls',
         'args': {
-            'header': 3,
-            'skipfooter': 4
+            'header': 5,
+            'skipfooter': 4,
+            'usecols': list(range(0, 14))
         }
     },
     '2012': {
         'type': 'xls',
-        'path': '../source_data/2012/table_1.xls',
+        'path': '../source_data/2012/table_3.xls',
         'args': {
-            'header': 3,
-            'skipfooter': 3
+            'header': 5,
+            'skipfooter': 1,
+            'usecols': list(range(0, 9))
         }
     },
     '2011': {
         'type': 'xls',
-        'path': '../source_data/2011/table_1.xls',
+        'path': '../source_data/2011/table_3.xls',
         'args': {
-            'header': 3,
-            'skipfooter': 3
+            'header': 4,
+            'skipfooter': 1,
+            'usecols': list(range(0, 9))
         }
     },
     '2010': {
         'type': 'xls',
-        'path': '../source_data/2010/table_1.xls',
+        'path': '../source_data/2010/table_3.xls',
         'args': {
-            'header': 2,
-            'skipfooter': 3
+            'header': 3,
+            'skipfooter': 2,
+            'usecols': list(range(0, 9))
         }
     },
     '2009': {
         'type': 'xls',
-        'path': '../source_data/2009/table_1.xls',
+        'path': '../source_data/2009/table_3.xls',
         'args': {
-            'header': 2,
-            'skipfooter': 3
+            'header': 3,
+            'skipfooter': 1,
+            'usecols': list(range(0, 9))
         }
     },
     '2008': {
         'type': 'xls',
-        'path': '../source_data/2008/table_1.xls',
+        'path': '../source_data/2008/table_3.xls',
         'args': {
-            'header': 2,
-            'skipfooter': 3
+            'header': 3,
+            'skipfooter': 1,
+            'usecols': list(range(0, 9))
         }
     },
     '2007': {
         'type': 'xls',
-        'path': '../source_data/2007/table_1.xls',
+        'path': '../source_data/2007/table_3.xls',
         'args': {
-            'header': 2,
-            'skipfooter': 3
+            'header': 3,
+            'skipfooter': 1,
+            'usecols': list(range(0, 9))
         }
     },
     '2006': {
         'type': 'xls',
-        'path': '../source_data/2006/table_1.xls',
+        'path': '../source_data/2006/table_3.xls',
         'args': {
-            'header': 2,
-            'skipfooter': 3
+            'header': 3,
+            'skipfooter': 1,
+            'usecols': list(range(0, 9))
         }
     },
     '2005': {
         'type': 'xls',
-        'path': '../source_data/2005/table_1.xls',
+        'path': '../source_data/2005/table_3.xls',
         'args': {
-            'header': 2,
-            'skipfooter': 3
+            'header': 3,
+            'skipfooter': 1,
+            'usecols': list(range(0, 9))
         }
     },
     '2004': {
         'type': 'xls',
-        'path': '../source_data/2004/table_1.xls',
+        'path': '../source_data/2004/table_3.xls',
         'args': {
-            'header': 2,
-            'skipfooter': 3
+            'header': 3,
+            'skipfooter': 1,
+            'usecols': list(range(0, 9))
         }
     }
 }
@@ -182,7 +202,7 @@ def _create_csv_mcf(csv_files: list, cleaned_csv_path: str,
         csv_files: A list of CSV file paths to process.
         cleaned_csv_path: Path of the final cleaned CSV file.
         config: A dict which maps constraint props to the statvar based on
-          values in the CSV. See scripts/fbi/hate_crime/table1/config.json for
+          values in the CSV. See scripts/fbi/hate_crime/table2/config.json for
           an example.
 
     Returns:
@@ -237,7 +257,7 @@ def _get_dpv(statvar: dict, config: dict) -> list:
     Args:
         statvar: A dictionary of prop:values of the statvar
         config: A dict which maps constraint props to the statvar based on
-          values in the CSV. See scripts/fbi/hate_crime/config.json for
+          values in the CSV. See scripts/fbi/hate_crime/table2/config.json for
           an example. The 'dpv' key is used to identify dependent properties.
 
     Returns:
@@ -263,35 +283,31 @@ def _write_output_csv(reader: csv.DictReader, writer: csv.DictWriter,
         reader: CSV dict reader.
         writer: CSV dict writer of final cleaned CSV.
         config: A dict which maps constraint props to the statvar based on
-          values in the CSV. See scripts/fbi/hate_crime/config.json for
+          values in the CSV. See scripts/fbi/hate_crime/table2/config.json for
           an example.
 
     Returns:
         A list of statvars.
     """
     statvars = []
+    columns = list(reader.fieldnames)
+    columns.remove('offense type')
+    columns.remove('Year')
     for crime in reader:
-        incident_statvar = {**config['populationType']['Incidents']}
-        offense_statvar = {**config['populationType']['Offenses']}
-        victim_statvar = {**config['populationType']['Victims']}
-        offender_statvar = {**config['populationType']['KnownOffender']}
+        offense_type = crime['offense type']
+        offense_type_key_value = config['pvs'][offense_type]
 
-        statvar_list = [
-            incident_statvar, offense_statvar, victim_statvar, offender_statvar
-        ]
-        bias_motivation = crime['bias motivation']
-        bias_key_value = config['pvs'][bias_motivation]
-        _update_statvars(statvar_list, bias_key_value)
+        statvar_list = []
+        for c in columns:
+            statvar = {**config['populationType'][c]}
+            statvar_list.append(statvar)
+
+        _update_statvars(statvar_list, offense_type_key_value)
         _update_statvar_dcids(statvar_list, config)
 
-        _write_row(crime['Year'], incident_statvar['Node'], crime['incidents'],
-                   writer)
-        _write_row(crime['Year'], offense_statvar['Node'], crime['offenses'],
-                   writer)
-        _write_row(crime['Year'], victim_statvar['Node'], crime['victims'],
-                   writer)
-        _write_row(crime['Year'], offender_statvar['Node'],
-                   crime['known offenders'], writer)
+        for idx, c in enumerate(columns):
+            _write_row(crime['Year'], statvar_list[idx]['Node'], crime[c],
+                       writer)
 
         statvars.extend(statvar_list)
 
@@ -318,21 +334,46 @@ def _create_mcf(stat_vars: list, mcf_file_path: str):
         f.write(final_mcf)
 
 
-def _clean_dataframe(df: pd.DataFrame):
-    """Clean the column names and bias motivation values in a dataframe."""
-    df.columns = df.columns.str.replace(r'\n', ' ', regex=True)
-    df.columns = df.columns.str.replace(r'\s+', ' ', regex=True)
-    df.columns = df.columns.str.replace(r'\d+', '', regex=True)
-    df.columns = df.columns.str.lower()
-    df.columns = df.columns.str.strip()
+def _clean_dataframe(df: pd.DataFrame, year: str):
+    """Clean the column names and offense type values in a dataframe."""
+    if year in ['2020', '2019', '2018', '2017', '2016', '2015', '2014', '2013']:
+        df.columns = [
+            'offense type', 'total offenses', 'white',
+            'black or african american', 'american indian or alaska native',
+            'asian', 'native hawaiian or other pacific islander',
+            'multiple races', 'unknown race', 'hispanic or latino',
+            'not hispanic or latino', 'group of multiple ethnicities',
+            'unknown ethnicity', 'unknown offender'
+        ]
+    else:  # 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004
+        df.columns = [
+            'offense type', 'total offenses', 'white',
+            'black or african american', 'american indian or alaska native',
+            'asian or pacific islander', 'multiple races', 'unknown race',
+            'unknown offender'
+        ]
+    df['offense type'] = df['offense type'].replace(r'[\d:]+', '', regex=True)
+    df['offense type'] = df['offense type'].replace(r'\s+', ' ', regex=True)
+    df['offense type'] = df['offense type'].str.strip()
+    df['offense type'] = df['offense type'].str.lower()
 
-    df['bias motivation'] = df['bias motivation'].replace(r'[\d:]+',
-                                                          '',
-                                                          regex=True)
-    df['bias motivation'] = df['bias motivation'].replace(r'\s+',
-                                                          ' ',
-                                                          regex=True)
-    df['bias motivation'] = df['bias motivation'].str.strip()
+    # Replace first occurrence of 'other' with 'other crimes against person' and
+    # second occurrence of 'other' with 'other crimes against property'.
+    first_occurrence = True
+    for idx, row in df.iterrows():
+        if row['offense type'] == 'other':
+            if first_occurrence:
+                df.at[idx, 'offense type'] = 'other crimes against person'
+                first_occurrence = False
+            else:
+                df.at[idx, 'offense type'] = 'other crimes against property'
+
+    df.set_index('offense type', inplace=True)
+
+    if year in YEARS_WITH_TWO_RAPE_COLUMNS:
+        df.loc['rape (revised definition)'] += df.loc[
+            'rape (legacy definition)']
+        df.drop(['rape (legacy definition)'], inplace=True)
     return df
 
 
@@ -344,9 +385,9 @@ if __name__ == '__main__':
             csv_file_path = os.path.join(tmp_dir, year + '.csv')
 
             read_file = pd.read_excel(xls_file_path, **config['args'])
-            read_file = _clean_dataframe(read_file)
+            read_file = _clean_dataframe(read_file, year)
             read_file.insert(YEAR_INDEX, 'Year', year)
-            read_file.to_csv(csv_file_path, index=None, header=True)
+            read_file.to_csv(csv_file_path, header=True)
             csv_files.append(csv_file_path)
 
         config_path = os.path.join(_SCRIPT_PATH, 'config.json')

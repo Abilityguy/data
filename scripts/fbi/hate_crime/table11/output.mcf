@@ -1,0 +1,127 @@
+Node: dcid:Offense_Count_HateCrimeIncidents
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offense_Count_HateCrimeIncidents_MurderAndNonNegligentManslaughter
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+crimeType: dcs:MurderAndNonNegligentManslaughter
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offense_Count_HateCrimeIncidents_ForcibleRape
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+crimeType: dcs:ForcibleRape
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offense_Count_HateCrimeIncidents_AggravatedAssault
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+crimeType: dcs:AggravatedAssault
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offense_Count_HateCrimeIncidents_SimpleAssault
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+crimeType: dcs:SimpleAssault
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Intimidation
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+crimeType: dcs:Intimidation
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offense_Count_HateCrimeIncidents_OtherCrimesAgainstPerson
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+crimeType: dcs:UCR_OtherCrimesAgainstPerson
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Robbery
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+crimeType: dcs:Robbery
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Burglary
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+crimeType: dcs:Burglary
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offense_Count_HateCrimeIncidents_LarcenyTheft
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+crimeType: dcs:LarcenyTheft
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offense_Count_HateCrimeIncidents_MotorVehicleTheft
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+crimeType: dcs:MotorVehicleTheft
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offense_Count_HateCrimeIncidents_Arson
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+crimeType: dcs:Arson
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offense_Count_HateCrimeIncidents_DestructionOrDamageOrVandalismOfProperty
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+crimeType: dcs:DestructionOrDamageOrVandalismOfProperty
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offense_Count_HateCrimeIncidents_OtherCrimesAgainstProperty
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+crimeType: dcs:UCR_OtherCrimesAgainstProperty
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offense_Count_HateCrimeIncidents_CrimeAgainstSociety
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+crimeType: dcs:CrimeAgainstSociety
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
+Node: dcid:Offense_Count_HateCrimeIncidents_HumanTraffickingCommercialSexActs
+populationType: dcs:HateCrimeIncidents
+measurementQualifier: dcs:Offense
+crimeType: dcs:HumanTrafficking_CommercialSexActs
+statType: dcs:measuredValue
+measuredProperty: dcs:count
+typeOf: dcs:StatisticalVariable
+
