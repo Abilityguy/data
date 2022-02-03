@@ -1,5 +1,6 @@
 """Process the data from Census ACS5Year Table S2201."""
 
+import sys
 import csv
 import io
 import json
@@ -8,6 +9,12 @@ import requests
 import zipfile
 from absl import app
 from absl import flags
+
+# Allows the following module imports to work when running as a script
+_SCRIPT_PATH = os.path.dirname(os.path.abspath(__file__))
+
+sys.path.append(os.path.join(_SCRIPT_PATH, '.'))  # for resolve_geo_id
+from resolve_geo_id import convert_to_place_dcid
 
 FLAGS = flags.FLAGS
 
@@ -109,7 +116,7 @@ def write_csv(filename, reader, output, features, stat_vars):
             new_row = {
                 'observationDate': observation_date,
                 # TODO: Expand to support other prefixes?
-                'observationAbout': 'dcid:geoId/' + row['GEO_ID'].split('US')[1]
+                'observationAbout': convert_to_place_dcid(row['GEO_ID'])
             }
             for c in row:
 
